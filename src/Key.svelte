@@ -1,6 +1,7 @@
 <script>
   export let key = ''
   export let fill = ''
+  export let opacity = '1'
   export let color = fill
 
   import c from 'spencer-color'
@@ -14,6 +15,7 @@
       key,
       show,
       color,
+      opacity,
     }
   }
 </script>

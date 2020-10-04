@@ -96,12 +96,18 @@
     <div class="key" style="background-color:{$keys['='].color};" class:show={$keys['='].color}>
       {$keys['='].show || ''}
     </div>
-    <div class="key" style="background-color:{$keys['del'].color}; flex:1.5;" class:show={$keys['del'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['del'].color}; opacity:{$keys['del'].opacity}; flex:1.5;"
+      class:show={$keys['del'].color}>
       {$keys['del'].show || ''}
     </div>
   </div>
   <div class="row">
-    <div class="key" style="background-color:{$keys['tab'].color};" class:show={$keys['tab'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['tab'].color}; opacity:{$keys['tab'].opacity};"
+      class:show={$keys['tab'].color}>
       {$keys['tab'].show || ''}
     </div>
     <div class="key" style="background-color:{$keys['q'].color};" class:show={$keys['q'].color}>
@@ -145,7 +151,10 @@
     </div>
   </div>
   <div class="row">
-    <div class="key" style="background-color:{$keys['caps'].color}; flex:1.6;" class:show={$keys['caps'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['caps'].color}; opacity:{$keys['caps'].opacity}; flex:1.6;"
+      class:show={$keys['caps'].color}>
       {$keys['caps'].show || ''}
     </div>
     <div class="key" style="background-color:{$keys['a'].color};" class:show={$keys['a'].color}>
@@ -181,12 +190,18 @@
     <div class="key" style="background-color:{$keys["'"].color};" class:show={$keys["'"].color}>
       {$keys["'"].show || ''}
     </div>
-    <div class="key" style="background-color:{$keys['enter'].color}; flex:1.6;" class:show={$keys['enter'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['enter'].color}; opacity:{$keys['enter'].opacity}; flex:1.6;"
+      class:show={$keys['enter'].color}>
       {$keys['enter'].show || ''}
     </div>
   </div>
   <div class="row">
-    <div class="key" style="background-color:{$keys['lshift'].color};flex:2.2;" class:show={$keys['lshift'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['lshift'].color}; opacity:{$keys['lshift'].opacity}; flex:2.2;"
+      class:show={$keys['lshift'].color}>
       {$keys['lshift'].show || ''}
     </div>
     <div class="key" style="background-color:{$keys['z'].color};" class:show={$keys['z'].color}>
@@ -219,30 +234,54 @@
     <div class="key" style="background-color:{$keys['/'].color};" class:show={$keys['/'].color}>
       {$keys['/'].show || ''}
     </div>
-    <div class="key" style="background-color:{$keys['rshift'].color}; flex:2.2;" class:show={$keys['rshift'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['rshift'].color}; opacity:{$keys['rshift'].opacity}; flex:2.2;"
+      class:show={$keys['rshift'].color}>
       {$keys['rshift'].show || ''}
     </div>
   </div>
   <div class="row">
-    <div class="key" style="background-color:{$keys['lctrl'].color}; flex:1.4;" class:show={$keys['lctrl'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['lctrl'].color}; opacity:{$keys['lctrl'].opacity}; flex:1.4;"
+      class:show={$keys['lctrl'].color}>
       {$keys['lctrl'].show || ''}
     </div>
-    <div class="key" style="background-color:{$keys['lopt'].color}; flex:1.4;" class:show={$keys['lopt'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['lopt'].color}; opacity:{$keys['lopt'].opacity}; flex:1.4;"
+      class:show={$keys['lopt'].color}>
       {$keys['lopt'].show || ''}
     </div>
-    <div class="key" style="background-color:{$keys['lcmd'].color}; flex:1.4;" class:show={$keys['lcmd'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['lcmd'].color}; opacity:{$keys['lcmd'].opacity}; flex:1.4;"
+      class:show={$keys['lcmd'].color}>
       {$keys['lcmd'].show || ''}
     </div>
-    <div class="key" style="background-color:{$keys['space'].color}; flex:6.8;" class:show={$keys['space'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['space'].color}; opacity:{$keys['space'].opacity}; flex:6.8;"
+      class:show={$keys['space'].color}>
       {$keys['space'].show || ''}
     </div>
-    <div class="key" style="background-color:{$keys['rcmd'].color}; flex:1.4;" class:show={$keys['rcmd'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['rcmd'].color}; opacity:{$keys['rcmd'].opacity}; flex:1.4;"
+      class:show={$keys['rcmd'].color}>
       {$keys['rcmd'].show || ''}
     </div>
-    <div class="key" style="background-color:{$keys['ropt'].color}; flex:1.4;" class:show={$keys['ropt'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['ropt'].color}; opacity:{$keys['ropt'].opacity}; flex:1.4;"
+      class:show={$keys['ropt'].color}>
       {$keys['ropt'].show || ''}
     </div>
-    <div class="key" style="background-color:{$keys['rctrl'].color}; flex:1.4;" class:show={$keys['rctrl'].color}>
+    <div
+      class="key"
+      style="background-color:{$keys['rctrl'].color}; opacity:{$keys['rctrl'].opacity}; flex:1.4;"
+      class:show={$keys['rctrl'].color}>
       {$keys['rctrl'].show || ''}
     </div>
   </div>
