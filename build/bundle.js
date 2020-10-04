@@ -584,8 +584,8 @@ var app = (function () {
 
     function add_css() {
     	var style = element("style");
-    	style.id = "svelte-1xqyb7b-style";
-    	style.textContent = ".container.svelte-1xqyb7b{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;flex-wrap:wrap;align-self:stretch;width:100%;height:500px;font-size:0.1px}.row.svelte-1xqyb7b{flex:1;display:flex;flex-direction:row;justify-content:flex-start;align-items:center;text-align:center;flex-wrap:nowrap;align-self:stretch}.key.svelte-1xqyb7b{border:1px solid grey;border-radius:3px;flex:1;height:80%;margin:0.5%;color:#fbfbfb;box-sizing:border-box}.show.svelte-1xqyb7b{background-color:#2d85a8;box-shadow:2px 2px 8px 0px rgba(0, 0, 0, 0.2);color:#d7d5d2;font-size:18px;display:flex;flex-direction:column;justify-content:space-around}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2V5Ym9hcmQuc3ZlbHRlIiwic291cmNlcyI6WyJLZXlib2FyZC5zdmVsdGUiXSwic291cmNlc0NvbnRlbnQiOlsiPHNjcmlwdD5cbiAgLy8gZml4IGEgY2VydGFpbiBhc3BlY3QtcmF0aW9cbiAgbGV0IHcgPSA0MDBcbiAgJDogaGVpZ2h0ID0gdyAqIDAuM1xuICBpbXBvcnQgeyBvbk1vdW50IH0gZnJvbSAnc3ZlbHRlJ1xuICBpbXBvcnQgeyBrZXlzIH0gZnJvbSAnLi9zdG9yZSdcblxuICBvbk1vdW50KCgpID0+IHtcbiAgICAka2V5cyA9ICRrZXlzXG4gIH0pXG48L3NjcmlwdD5cblxuPHN0eWxlPlxuICAuY29udGFpbmVyIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAganVzdGlmeS1jb250ZW50OiBmbGV4LXN0YXJ0O1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGZsZXgtd3JhcDogd3JhcDtcbiAgICBhbGlnbi1zZWxmOiBzdHJldGNoO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogNTAwcHg7XG4gICAgZm9udC1zaXplOiAwLjFweDtcbiAgfVxuICAucm93IHtcbiAgICBmbGV4OiAxO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtc3RhcnQ7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZmxleC13cmFwOiBub3dyYXA7XG4gICAgYWxpZ24tc2VsZjogc3RyZXRjaDtcbiAgfVxuICAua2V5IHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCBncmV5O1xuICAgIGJvcmRlci1yYWRpdXM6IDNweDtcbiAgICAvKiB3aWR0aDogNTBweDsgKi9cbiAgICBmbGV4OiAxO1xuICAgIC8qIGhlaWdodDogMzBweDsgKi9cbiAgICBoZWlnaHQ6IDgwJTtcbiAgICAvKiBtYXJnaW46IDNweDsgKi9cbiAgICBtYXJnaW46IDAuNSU7XG4gICAgY29sb3I6ICNmYmZiZmI7XG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgfVxuICAuc2hvdyB7XG4gICAgLyogYm9yZGVyOiAycHggc29saWQgI2Q2ODg4MTsgKi9cbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMmQ4NWE4O1xuICAgIGJveC1zaGFkb3c6IDJweCAycHggOHB4IDBweCByZ2JhKDAsIDAsIDAsIDAuMik7XG4gICAgY29sb3I6ICNkN2Q1ZDI7XG4gICAgZm9udC1zaXplOiAxOHB4O1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcbiAgfVxuPC9zdHlsZT5cblxuPGRpdiBjbGFzcz1cImNvbnRhaW5lclwiIGJpbmQ6Y2xpZW50V2lkdGg9e3d9IHN0eWxlPVwibWF4LWhlaWdodDp7aGVpZ2h0fXB4O1wiPlxuICA8ZGl2IGNsYXNzPVwicm93XCI+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2AnXS5jb2xvcn07ZmxleDowLjc7XCIgY2xhc3M6c2hvdz17JGtleXNbJ2AnXX0+fjwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWycxJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWycxJ119PiE8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snMiddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snMiddfT5APC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJzMnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJzMnXX0+IzwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyc0J10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyc0J119PiQ8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snNSddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snNSddfT4lPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJzYnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJzYnXX0+XjwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyc3J10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyc3J119PiY8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snOCddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snOCddfT57JGtleXNbJzgnXS5zaG93fTwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyc5J10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyc5J119Pig8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snMCddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snMCddfT4pPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJy0nXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJy0nXX0+LTwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyc9J10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyc9J119Pj08L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snZGVsJ10uY29sb3J9OyBmbGV4OjEuNTtcIiBjbGFzczpzaG93PXska2V5c1snZGVsJ119PuKftTwvZGl2PlxuICA8L2Rpdj5cbiAgPGRpdiBjbGFzcz1cInJvd1wiPlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyd0YWInXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ3RhYiddfSAvPlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydxJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydxJ119PnE8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1sndyddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1sndyddfT53PC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2UnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ2UnXX0+ZTwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydyJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydyJ119PnI8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1sndCddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1sndCddfT50PC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ3knXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ3knXX0+eTwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyd1J10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyd1J119PnU8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snaSddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snaSddfT5pPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ28nXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ28nXX0+bzwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydwJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydwJ119PnA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snWyddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snWyddfT5bPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ10nXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ10nXX0+XTwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydcXFxcJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzW1wiJ1wiXX0+XFw8L2Rpdj5cbiAgPC9kaXY+XG4gIDxkaXYgY2xhc3M9XCJyb3dcIj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJmbGV4OjEuNjtcIiBjbGFzczpzaG93PXska2V5c1snY2FwcyddfSAvPlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydhJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydhJ119PmE8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1sncyddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1sncyddfT5zPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2QnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ2QnXX0+ZDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydmJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydmJ119PmY8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snZyddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snZyddfT5nPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2gnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ2gnXX0+aDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydqJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydqJ119Pmo8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snayddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snayddfT5rPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2wnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ2wnXX0+bDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyc7J10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyc7J119Pjs8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1tcIidcIl0uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzW1wiJ1wiXX0+JzwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydlbnRlciddLmNvbG9yfTsgZmxleDoxLjY7XCIgY2xhc3M6c2hvdz17JGtleXNbJ2VudGVyJ119PuKGtTwvZGl2PlxuICA8L2Rpdj5cbiAgPGRpdiBjbGFzcz1cInJvd1wiPlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImZsZXg6Mi4yO1wiIGNsYXNzOnNob3c9eyRrZXlzWydsc2hpZnQnXX0+4oenPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ3onXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ3onXX0+ejwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyd4J10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyd4J119Png8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snYyddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snYyddfT5jPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ3YnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ3YnXX0+djwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydiJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydiJ119PmI8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snbiddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snbiddfT5uPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ20nXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ20nXX0+bTwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWycsJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWycsJ119Piw8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snLiddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snLiddfT4uPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJy8nXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJy8nXX0+LzwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImZsZXg6Mi4yO1wiIGNsYXNzOnNob3c9eyRrZXlzWydyc2hpZnQnXX0+4oenPC9kaXY+XG4gIDwvZGl2PlxuICA8ZGl2IGNsYXNzPVwicm93XCI+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2xjdHJsJ10uY29sb3J9OyBmbGV4OjEuNDtcIiBjbGFzczpzaG93PXska2V5c1snbGN0cmwnXX0+4oyDPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2xvcHQnXS5jb2xvcn07IGZsZXg6MS40O1wiIGNsYXNzOnNob3c9eyRrZXlzWydsb3B0J119PuKMpTwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydsY21kJ10uY29sb3J9OyBmbGV4OjEuNDtcIiBjbGFzczpzaG93PXska2V5c1snbGNtZCddfT7ijJg8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snc3BhY2UnXS5jb2xvcn07IGZsZXg6Ni44O1wiIGNsYXNzOnNob3c9eyRrZXlzWydzcGFjZSddfSAvPlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydyY21kJ10uY29sb3J9OyBmbGV4OjEuNDtcIiBjbGFzczpzaG93PXska2V5c1sncmNtZCddfT7ijJg8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1sncm9wdCddLmNvbG9yfTsgZmxleDoxLjQ7XCIgY2xhc3M6c2hvdz17JGtleXNbJ3JvcHQnXX0+4oylPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ3JjdHJsJ10uY29sb3J9OyBmbGV4OjEuNDtcIiBjbGFzczpzaG93PXska2V5c1sncmN0cmwnXX0+4oyDPC9kaXY+XG4gIDwvZGl2PlxuPC9kaXY+XG48c2xvdCAvPlxuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWFFLFVBQVUsZUFBQyxDQUFDLEFBQ1YsT0FBTyxDQUFFLElBQUksQ0FDYixjQUFjLENBQUUsTUFBTSxDQUN0QixlQUFlLENBQUUsVUFBVSxDQUMzQixXQUFXLENBQUUsTUFBTSxDQUNuQixVQUFVLENBQUUsTUFBTSxDQUNsQixTQUFTLENBQUUsSUFBSSxDQUNmLFVBQVUsQ0FBRSxPQUFPLENBQ25CLEtBQUssQ0FBRSxJQUFJLENBQ1gsTUFBTSxDQUFFLEtBQUssQ0FDYixTQUFTLENBQUUsS0FBSyxBQUNsQixDQUFDLEFBQ0QsSUFBSSxlQUFDLENBQUMsQUFDSixJQUFJLENBQUUsQ0FBQyxDQUNQLE9BQU8sQ0FBRSxJQUFJLENBQ2IsY0FBYyxDQUFFLEdBQUcsQ0FDbkIsZUFBZSxDQUFFLFVBQVUsQ0FDM0IsV0FBVyxDQUFFLE1BQU0sQ0FDbkIsVUFBVSxDQUFFLE1BQU0sQ0FDbEIsU0FBUyxDQUFFLE1BQU0sQ0FDakIsVUFBVSxDQUFFLE9BQU8sQUFDckIsQ0FBQyxBQUNELElBQUksZUFBQyxDQUFDLEFBQ0osTUFBTSxDQUFFLEdBQUcsQ0FBQyxLQUFLLENBQUMsSUFBSSxDQUN0QixhQUFhLENBQUUsR0FBRyxDQUVsQixJQUFJLENBQUUsQ0FBQyxDQUVQLE1BQU0sQ0FBRSxHQUFHLENBRVgsTUFBTSxDQUFFLElBQUksQ0FDWixLQUFLLENBQUUsT0FBTyxDQUNkLFVBQVUsQ0FBRSxVQUFVLEFBQ3hCLENBQUMsQUFDRCxLQUFLLGVBQUMsQ0FBQyxBQUVMLGdCQUFnQixDQUFFLE9BQU8sQ0FDekIsVUFBVSxDQUFFLEdBQUcsQ0FBQyxHQUFHLENBQUMsR0FBRyxDQUFDLEdBQUcsQ0FBQyxLQUFLLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxDQUM5QyxLQUFLLENBQUUsT0FBTyxDQUNkLFNBQVMsQ0FBRSxJQUFJLENBQ2YsT0FBTyxDQUFFLElBQUksQ0FDYixjQUFjLENBQUUsTUFBTSxDQUN0QixlQUFlLENBQUUsWUFBWSxBQUMvQixDQUFDIn0= */";
+    	style.id = "svelte-s6zq7o-style";
+    	style.textContent = ".container.svelte-s6zq7o{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;flex-wrap:wrap;align-self:stretch;width:100%;height:500px;font-size:0.1px}.row.svelte-s6zq7o{flex:1;display:flex;flex-direction:row;justify-content:flex-start;align-items:center;text-align:center;flex-wrap:nowrap;align-self:stretch}.key.svelte-s6zq7o{border-radius:3px;flex:1;height:80%;margin:0.5%;color:#fbfbfb;box-sizing:border-box;box-shadow:1px 2px 4px 0px rgba(0, 0, 0, 0.2)}.show.svelte-s6zq7o{box-shadow:1px 2px 8px 2px rgba(0, 0, 0, 0.2);border:none;color:#d7d5d2;opacity:0.9;font-size:18px;display:flex;flex-direction:column;justify-content:space-around}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2V5Ym9hcmQuc3ZlbHRlIiwic291cmNlcyI6WyJLZXlib2FyZC5zdmVsdGUiXSwic291cmNlc0NvbnRlbnQiOlsiPHNjcmlwdD5cbiAgLy8gZml4IGEgY2VydGFpbiBhc3BlY3QtcmF0aW9cbiAgbGV0IHcgPSA0MDBcbiAgJDogaGVpZ2h0ID0gdyAqIDAuM1xuICBpbXBvcnQgeyBvbk1vdW50IH0gZnJvbSAnc3ZlbHRlJ1xuICBpbXBvcnQgeyBrZXlzIH0gZnJvbSAnLi9zdG9yZSdcblxuICBvbk1vdW50KCgpID0+IHtcbiAgICAka2V5cyA9ICRrZXlzXG4gIH0pXG48L3NjcmlwdD5cblxuPHN0eWxlPlxuICAuY29udGFpbmVyIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAganVzdGlmeS1jb250ZW50OiBmbGV4LXN0YXJ0O1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGZsZXgtd3JhcDogd3JhcDtcbiAgICBhbGlnbi1zZWxmOiBzdHJldGNoO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogNTAwcHg7XG4gICAgZm9udC1zaXplOiAwLjFweDtcbiAgfVxuICAucm93IHtcbiAgICBmbGV4OiAxO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtc3RhcnQ7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZmxleC13cmFwOiBub3dyYXA7XG4gICAgYWxpZ24tc2VsZjogc3RyZXRjaDtcbiAgfVxuICAua2V5IHtcbiAgICAvKiBib3JkZXI6IDFweCBzb2xpZCBncmV5OyAqL1xuICAgIGJvcmRlci1yYWRpdXM6IDNweDtcbiAgICBmbGV4OiAxO1xuICAgIGhlaWdodDogODAlO1xuICAgIG1hcmdpbjogMC41JTtcbiAgICBjb2xvcjogI2ZiZmJmYjtcbiAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgIGJveC1zaGFkb3c6IDFweCAycHggNHB4IDBweCByZ2JhKDAsIDAsIDAsIDAuMik7XG4gIH1cbiAgLnNob3cge1xuICAgIGJveC1zaGFkb3c6IDFweCAycHggOHB4IDJweCByZ2JhKDAsIDAsIDAsIDAuMik7XG4gICAgYm9yZGVyOiBub25lO1xuICAgIGNvbG9yOiAjZDdkNWQyO1xuICAgIG9wYWNpdHk6IDAuOTtcbiAgICBmb250LXNpemU6IDE4cHg7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xuICB9XG48L3N0eWxlPlxuXG48ZGl2IGNsYXNzPVwiY29udGFpbmVyXCIgYmluZDpjbGllbnRXaWR0aD17d30gc3R5bGU9XCJtYXgtaGVpZ2h0OntoZWlnaHR9cHg7XCI+XG4gIDxkaXYgY2xhc3M9XCJyb3dcIj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snYCddLmNvbG9yfTtmbGV4OjAuNztcIiBjbGFzczpzaG93PXska2V5c1snYCddLmNvbG9yfT5cbiAgICAgIHska2V5c1snYCddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJzEnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJzEnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJzEnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWycyJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWycyJ10uY29sb3J9PlxuICAgICAgeyRrZXlzWycyJ10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snMyddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snMyddLmNvbG9yfT5cbiAgICAgIHska2V5c1snMyddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJzQnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJzQnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJzQnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyc1J10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyc1J10uY29sb3J9PlxuICAgICAgeyRrZXlzWyc1J10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snNiddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snNiddLmNvbG9yfT5cbiAgICAgIHska2V5c1snNiddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJzcnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJzcnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJzcnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyc4J10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyc4J10uY29sb3J9PlxuICAgICAgeyRrZXlzWyc4J10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snOSddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snOSddLmNvbG9yfT5cbiAgICAgIHska2V5c1snOSddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJzAnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJzAnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJzAnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyctJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyctJ10uY29sb3J9PlxuICAgICAgeyRrZXlzWyctJ10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snPSddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snPSddLmNvbG9yfT5cbiAgICAgIHska2V5c1snPSddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2RlbCddLmNvbG9yfTsgZmxleDoxLjU7XCIgY2xhc3M6c2hvdz17JGtleXNbJ2RlbCddLmNvbG9yfT5cbiAgICAgIHska2V5c1snZGVsJ10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgPC9kaXY+XG4gIDxkaXYgY2xhc3M9XCJyb3dcIj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1sndGFiJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyd0YWInXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJ3RhYiddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ3EnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ3EnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJ3EnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyd3J10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyd3J10uY29sb3J9PlxuICAgICAgeyRrZXlzWyd3J10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snZSddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snZSddLmNvbG9yfT5cbiAgICAgIHska2V5c1snZSddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ3InXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ3InXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJ3InXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyd0J10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyd0J10uY29sb3J9PlxuICAgICAgeyRrZXlzWyd0J10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1sneSddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1sneSddLmNvbG9yfT5cbiAgICAgIHska2V5c1sneSddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ3UnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ3UnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJ3UnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydpJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydpJ10uY29sb3J9PlxuICAgICAgeyRrZXlzWydpJ10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snbyddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snbyddLmNvbG9yfT5cbiAgICAgIHska2V5c1snbyddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ3AnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ3AnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJ3AnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydbJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydbJ10uY29sb3J9PlxuICAgICAgeyRrZXlzWydbJ10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snXSddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snXSddLmNvbG9yfT5cbiAgICAgIHska2V5c1snXSddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ1xcXFwnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ1xcXFwnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJ1xcXFwnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICA8L2Rpdj5cbiAgPGRpdiBjbGFzcz1cInJvd1wiPlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydjYXBzJ10uY29sb3J9OyBmbGV4OjEuNjtcIiBjbGFzczpzaG93PXska2V5c1snY2FwcyddLmNvbG9yfT5cbiAgICAgIHska2V5c1snY2FwcyddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2EnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ2EnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJ2EnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydzJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydzJ10uY29sb3J9PlxuICAgICAgeyRrZXlzWydzJ10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snZCddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snZCddLmNvbG9yfT5cbiAgICAgIHska2V5c1snZCddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2YnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ2YnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJ2YnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydnJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydnJ10uY29sb3J9PlxuICAgICAgeyRrZXlzWydnJ10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snaCddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snaCddLmNvbG9yfT5cbiAgICAgIHska2V5c1snaCddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2onXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ2onXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJ2onXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydrJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydrJ10uY29sb3J9PlxuICAgICAgeyRrZXlzWydrJ10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snbCddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snbCddLmNvbG9yfT5cbiAgICAgIHska2V5c1snbCddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJzsnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJzsnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJzsnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzW1wiJ1wiXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbXCInXCJdLmNvbG9yfT5cbiAgICAgIHska2V5c1tcIidcIl0uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snZW50ZXInXS5jb2xvcn07IGZsZXg6MS42O1wiIGNsYXNzOnNob3c9eyRrZXlzWydlbnRlciddLmNvbG9yfT5cbiAgICAgIHska2V5c1snZW50ZXInXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICA8L2Rpdj5cbiAgPGRpdiBjbGFzcz1cInJvd1wiPlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydsc2hpZnQnXS5jb2xvcn07ZmxleDoyLjI7XCIgY2xhc3M6c2hvdz17JGtleXNbJ2xzaGlmdCddLmNvbG9yfT5cbiAgICAgIHska2V5c1snbHNoaWZ0J10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1sneiddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1sneiddLmNvbG9yfT5cbiAgICAgIHska2V5c1sneiddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ3gnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ3gnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJ3gnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydjJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWydjJ10uY29sb3J9PlxuICAgICAgeyRrZXlzWydjJ10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1sndiddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1sndiddLmNvbG9yfT5cbiAgICAgIHska2V5c1sndiddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2InXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJ2InXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJ2InXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWyduJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWyduJ10uY29sb3J9PlxuICAgICAgeyRrZXlzWyduJ10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snbSddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snbSddLmNvbG9yfT5cbiAgICAgIHska2V5c1snbSddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJywnXS5jb2xvcn07XCIgY2xhc3M6c2hvdz17JGtleXNbJywnXS5jb2xvcn0+XG4gICAgICB7JGtleXNbJywnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWycuJ10uY29sb3J9O1wiIGNsYXNzOnNob3c9eyRrZXlzWycuJ10uY29sb3J9PlxuICAgICAgeyRrZXlzWycuJ10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snLyddLmNvbG9yfTtcIiBjbGFzczpzaG93PXska2V5c1snLyddLmNvbG9yfT5cbiAgICAgIHska2V5c1snLyddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ3JzaGlmdCddLmNvbG9yfTsgZmxleDoyLjI7XCIgY2xhc3M6c2hvdz17JGtleXNbJ3JzaGlmdCddLmNvbG9yfT5cbiAgICAgIHska2V5c1sncnNoaWZ0J10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgPC9kaXY+XG4gIDxkaXYgY2xhc3M9XCJyb3dcIj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snbGN0cmwnXS5jb2xvcn07IGZsZXg6MS40O1wiIGNsYXNzOnNob3c9eyRrZXlzWydsY3RybCddLmNvbG9yfT5cbiAgICAgIHska2V5c1snbGN0cmwnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydsb3B0J10uY29sb3J9OyBmbGV4OjEuNDtcIiBjbGFzczpzaG93PXska2V5c1snbG9wdCddLmNvbG9yfT5cbiAgICAgIHska2V5c1snbG9wdCddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ2xjbWQnXS5jb2xvcn07IGZsZXg6MS40O1wiIGNsYXNzOnNob3c9eyRrZXlzWydsY21kJ10uY29sb3J9PlxuICAgICAgeyRrZXlzWydsY21kJ10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1snc3BhY2UnXS5jb2xvcn07IGZsZXg6Ni44O1wiIGNsYXNzOnNob3c9eyRrZXlzWydzcGFjZSddLmNvbG9yfT5cbiAgICAgIHska2V5c1snc3BhY2UnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3M9XCJrZXlcIiBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6eyRrZXlzWydyY21kJ10uY29sb3J9OyBmbGV4OjEuNDtcIiBjbGFzczpzaG93PXska2V5c1sncmNtZCddLmNvbG9yfT5cbiAgICAgIHska2V5c1sncmNtZCddLnNob3cgfHwgJyd9XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImtleVwiIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjp7JGtleXNbJ3JvcHQnXS5jb2xvcn07IGZsZXg6MS40O1wiIGNsYXNzOnNob3c9eyRrZXlzWydyb3B0J10uY29sb3J9PlxuICAgICAgeyRrZXlzWydyb3B0J10uc2hvdyB8fCAnJ31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzPVwia2V5XCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOnska2V5c1sncmN0cmwnXS5jb2xvcn07IGZsZXg6MS40O1wiIGNsYXNzOnNob3c9eyRrZXlzWydyY3RybCddLmNvbG9yfT5cbiAgICAgIHska2V5c1sncmN0cmwnXS5zaG93IHx8ICcnfVxuICAgIDwvZGl2PlxuICA8L2Rpdj5cbjwvZGl2PlxuPHNsb3QgLz5cbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFhRSxVQUFVLGNBQUMsQ0FBQyxBQUNWLE9BQU8sQ0FBRSxJQUFJLENBQ2IsY0FBYyxDQUFFLE1BQU0sQ0FDdEIsZUFBZSxDQUFFLFVBQVUsQ0FDM0IsV0FBVyxDQUFFLE1BQU0sQ0FDbkIsVUFBVSxDQUFFLE1BQU0sQ0FDbEIsU0FBUyxDQUFFLElBQUksQ0FDZixVQUFVLENBQUUsT0FBTyxDQUNuQixLQUFLLENBQUUsSUFBSSxDQUNYLE1BQU0sQ0FBRSxLQUFLLENBQ2IsU0FBUyxDQUFFLEtBQUssQUFDbEIsQ0FBQyxBQUNELElBQUksY0FBQyxDQUFDLEFBQ0osSUFBSSxDQUFFLENBQUMsQ0FDUCxPQUFPLENBQUUsSUFBSSxDQUNiLGNBQWMsQ0FBRSxHQUFHLENBQ25CLGVBQWUsQ0FBRSxVQUFVLENBQzNCLFdBQVcsQ0FBRSxNQUFNLENBQ25CLFVBQVUsQ0FBRSxNQUFNLENBQ2xCLFNBQVMsQ0FBRSxNQUFNLENBQ2pCLFVBQVUsQ0FBRSxPQUFPLEFBQ3JCLENBQUMsQUFDRCxJQUFJLGNBQUMsQ0FBQyxBQUVKLGFBQWEsQ0FBRSxHQUFHLENBQ2xCLElBQUksQ0FBRSxDQUFDLENBQ1AsTUFBTSxDQUFFLEdBQUcsQ0FDWCxNQUFNLENBQUUsSUFBSSxDQUNaLEtBQUssQ0FBRSxPQUFPLENBQ2QsVUFBVSxDQUFFLFVBQVUsQ0FDdEIsVUFBVSxDQUFFLEdBQUcsQ0FBQyxHQUFHLENBQUMsR0FBRyxDQUFDLEdBQUcsQ0FBQyxLQUFLLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxBQUNoRCxDQUFDLEFBQ0QsS0FBSyxjQUFDLENBQUMsQUFDTCxVQUFVLENBQUUsR0FBRyxDQUFDLEdBQUcsQ0FBQyxHQUFHLENBQUMsR0FBRyxDQUFDLEtBQUssQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsR0FBRyxDQUFDLENBQzlDLE1BQU0sQ0FBRSxJQUFJLENBQ1osS0FBSyxDQUFFLE9BQU8sQ0FDZCxPQUFPLENBQUUsR0FBRyxDQUNaLFNBQVMsQ0FBRSxJQUFJLENBQ2YsT0FBTyxDQUFFLElBQUksQ0FDYixjQUFjLENBQUUsTUFBTSxDQUN0QixlQUFlLENBQUUsWUFBWSxBQUMvQixDQUFDIn0= */";
     	append_dev(document.head, style);
     }
 
@@ -593,186 +593,250 @@ var app = (function () {
     	let div65;
     	let div14;
     	let div0;
+    	let t0_value = (/*$keys*/ ctx[2]["`"].show || "") + "";
     	let t0;
     	let t1;
     	let div1;
+    	let t2_value = (/*$keys*/ ctx[2]["1"].show || "") + "";
     	let t2;
     	let t3;
     	let div2;
+    	let t4_value = (/*$keys*/ ctx[2]["2"].show || "") + "";
     	let t4;
     	let t5;
     	let div3;
+    	let t6_value = (/*$keys*/ ctx[2]["3"].show || "") + "";
     	let t6;
     	let t7;
     	let div4;
+    	let t8_value = (/*$keys*/ ctx[2]["4"].show || "") + "";
     	let t8;
     	let t9;
     	let div5;
+    	let t10_value = (/*$keys*/ ctx[2]["5"].show || "") + "";
     	let t10;
     	let t11;
     	let div6;
+    	let t12_value = (/*$keys*/ ctx[2]["6"].show || "") + "";
     	let t12;
     	let t13;
     	let div7;
+    	let t14_value = (/*$keys*/ ctx[2]["7"].show || "") + "";
     	let t14;
     	let t15;
     	let div8;
-    	let t16_value = /*$keys*/ ctx[2]["8"].show + "";
+    	let t16_value = (/*$keys*/ ctx[2]["8"].show || "") + "";
     	let t16;
     	let t17;
     	let div9;
+    	let t18_value = (/*$keys*/ ctx[2]["9"].show || "") + "";
     	let t18;
     	let t19;
     	let div10;
+    	let t20_value = (/*$keys*/ ctx[2]["0"].show || "") + "";
     	let t20;
     	let t21;
     	let div11;
+    	let t22_value = (/*$keys*/ ctx[2]["-"].show || "") + "";
     	let t22;
     	let t23;
     	let div12;
+    	let t24_value = (/*$keys*/ ctx[2]["="].show || "") + "";
     	let t24;
     	let t25;
     	let div13;
+    	let t26_value = (/*$keys*/ ctx[2]["del"].show || "") + "";
     	let t26;
     	let t27;
     	let div29;
     	let div15;
+    	let t28_value = (/*$keys*/ ctx[2]["tab"].show || "") + "";
     	let t28;
-    	let div16;
     	let t29;
+    	let div16;
+    	let t30_value = (/*$keys*/ ctx[2]["q"].show || "") + "";
     	let t30;
-    	let div17;
     	let t31;
+    	let div17;
+    	let t32_value = (/*$keys*/ ctx[2]["w"].show || "") + "";
     	let t32;
-    	let div18;
     	let t33;
+    	let div18;
+    	let t34_value = (/*$keys*/ ctx[2]["e"].show || "") + "";
     	let t34;
-    	let div19;
     	let t35;
+    	let div19;
+    	let t36_value = (/*$keys*/ ctx[2]["r"].show || "") + "";
     	let t36;
-    	let div20;
     	let t37;
+    	let div20;
+    	let t38_value = (/*$keys*/ ctx[2]["t"].show || "") + "";
     	let t38;
-    	let div21;
     	let t39;
+    	let div21;
+    	let t40_value = (/*$keys*/ ctx[2]["y"].show || "") + "";
     	let t40;
-    	let div22;
     	let t41;
+    	let div22;
+    	let t42_value = (/*$keys*/ ctx[2]["u"].show || "") + "";
     	let t42;
-    	let div23;
     	let t43;
+    	let div23;
+    	let t44_value = (/*$keys*/ ctx[2]["i"].show || "") + "";
     	let t44;
-    	let div24;
     	let t45;
+    	let div24;
+    	let t46_value = (/*$keys*/ ctx[2]["o"].show || "") + "";
     	let t46;
-    	let div25;
     	let t47;
+    	let div25;
+    	let t48_value = (/*$keys*/ ctx[2]["p"].show || "") + "";
     	let t48;
-    	let div26;
     	let t49;
+    	let div26;
+    	let t50_value = (/*$keys*/ ctx[2]["["].show || "") + "";
     	let t50;
-    	let div27;
     	let t51;
+    	let div27;
+    	let t52_value = (/*$keys*/ ctx[2]["]"].show || "") + "";
     	let t52;
-    	let div28;
     	let t53;
+    	let div28;
+    	let t54_value = (/*$keys*/ ctx[2]["\\"].show || "") + "";
     	let t54;
+    	let t55;
     	let div43;
     	let div30;
-    	let t55;
-    	let div31;
+    	let t56_value = (/*$keys*/ ctx[2]["caps"].show || "") + "";
     	let t56;
     	let t57;
-    	let div32;
+    	let div31;
+    	let t58_value = (/*$keys*/ ctx[2]["a"].show || "") + "";
     	let t58;
     	let t59;
-    	let div33;
+    	let div32;
+    	let t60_value = (/*$keys*/ ctx[2]["s"].show || "") + "";
     	let t60;
     	let t61;
-    	let div34;
+    	let div33;
+    	let t62_value = (/*$keys*/ ctx[2]["d"].show || "") + "";
     	let t62;
     	let t63;
-    	let div35;
+    	let div34;
+    	let t64_value = (/*$keys*/ ctx[2]["f"].show || "") + "";
     	let t64;
     	let t65;
-    	let div36;
+    	let div35;
+    	let t66_value = (/*$keys*/ ctx[2]["g"].show || "") + "";
     	let t66;
     	let t67;
-    	let div37;
+    	let div36;
+    	let t68_value = (/*$keys*/ ctx[2]["h"].show || "") + "";
     	let t68;
     	let t69;
-    	let div38;
+    	let div37;
+    	let t70_value = (/*$keys*/ ctx[2]["j"].show || "") + "";
     	let t70;
     	let t71;
-    	let div39;
+    	let div38;
+    	let t72_value = (/*$keys*/ ctx[2]["k"].show || "") + "";
     	let t72;
     	let t73;
-    	let div40;
+    	let div39;
+    	let t74_value = (/*$keys*/ ctx[2]["l"].show || "") + "";
     	let t74;
     	let t75;
-    	let div41;
+    	let div40;
+    	let t76_value = (/*$keys*/ ctx[2][";"].show || "") + "";
     	let t76;
     	let t77;
-    	let div42;
+    	let div41;
+    	let t78_value = (/*$keys*/ ctx[2]["'"].show || "") + "";
     	let t78;
     	let t79;
+    	let div42;
+    	let t80_value = (/*$keys*/ ctx[2]["enter"].show || "") + "";
+    	let t80;
+    	let t81;
     	let div56;
     	let div44;
-    	let t81;
-    	let div45;
+    	let t82_value = (/*$keys*/ ctx[2]["lshift"].show || "") + "";
     	let t82;
     	let t83;
-    	let div46;
+    	let div45;
+    	let t84_value = (/*$keys*/ ctx[2]["z"].show || "") + "";
     	let t84;
     	let t85;
-    	let div47;
+    	let div46;
+    	let t86_value = (/*$keys*/ ctx[2]["x"].show || "") + "";
     	let t86;
     	let t87;
-    	let div48;
+    	let div47;
+    	let t88_value = (/*$keys*/ ctx[2]["c"].show || "") + "";
     	let t88;
     	let t89;
-    	let div49;
+    	let div48;
+    	let t90_value = (/*$keys*/ ctx[2]["v"].show || "") + "";
     	let t90;
     	let t91;
-    	let div50;
+    	let div49;
+    	let t92_value = (/*$keys*/ ctx[2]["b"].show || "") + "";
     	let t92;
     	let t93;
-    	let div51;
+    	let div50;
+    	let t94_value = (/*$keys*/ ctx[2]["n"].show || "") + "";
     	let t94;
     	let t95;
-    	let div52;
+    	let div51;
+    	let t96_value = (/*$keys*/ ctx[2]["m"].show || "") + "";
     	let t96;
     	let t97;
-    	let div53;
+    	let div52;
+    	let t98_value = (/*$keys*/ ctx[2][","].show || "") + "";
     	let t98;
     	let t99;
-    	let div54;
+    	let div53;
+    	let t100_value = (/*$keys*/ ctx[2]["."].show || "") + "";
     	let t100;
     	let t101;
-    	let div55;
+    	let div54;
+    	let t102_value = (/*$keys*/ ctx[2]["/"].show || "") + "";
+    	let t102;
     	let t103;
-    	let div64;
-    	let div57;
+    	let div55;
+    	let t104_value = (/*$keys*/ ctx[2]["rshift"].show || "") + "";
     	let t104;
     	let t105;
-    	let div58;
+    	let div64;
+    	let div57;
+    	let t106_value = (/*$keys*/ ctx[2]["lctrl"].show || "") + "";
     	let t106;
     	let t107;
-    	let div59;
+    	let div58;
+    	let t108_value = (/*$keys*/ ctx[2]["lopt"].show || "") + "";
     	let t108;
     	let t109;
-    	let div60;
+    	let div59;
+    	let t110_value = (/*$keys*/ ctx[2]["lcmd"].show || "") + "";
     	let t110;
-    	let div61;
     	let t111;
+    	let div60;
+    	let t112_value = (/*$keys*/ ctx[2]["space"].show || "") + "";
     	let t112;
-    	let div62;
     	let t113;
+    	let div61;
+    	let t114_value = (/*$keys*/ ctx[2]["rcmd"].show || "") + "";
     	let t114;
-    	let div63;
     	let t115;
-    	let div65_resize_listener;
+    	let div62;
+    	let t116_value = (/*$keys*/ ctx[2]["ropt"].show || "") + "";
     	let t116;
+    	let t117;
+    	let div63;
+    	let t118_value = (/*$keys*/ ctx[2]["rctrl"].show || "") + "";
+    	let t118;
+    	let div65_resize_listener;
+    	let t119;
     	let current;
     	const default_slot_template = /*$$slots*/ ctx[4].default;
     	const default_slot = create_slot(default_slot_template, ctx, /*$$scope*/ ctx[3], null);
@@ -782,451 +846,457 @@ var app = (function () {
     			div65 = element("div");
     			div14 = element("div");
     			div0 = element("div");
-    			t0 = text("~");
+    			t0 = text(t0_value);
     			t1 = space();
     			div1 = element("div");
-    			t2 = text("!");
+    			t2 = text(t2_value);
     			t3 = space();
     			div2 = element("div");
-    			t4 = text("@");
+    			t4 = text(t4_value);
     			t5 = space();
     			div3 = element("div");
-    			t6 = text("#");
+    			t6 = text(t6_value);
     			t7 = space();
     			div4 = element("div");
-    			t8 = text("$");
+    			t8 = text(t8_value);
     			t9 = space();
     			div5 = element("div");
-    			t10 = text("%");
+    			t10 = text(t10_value);
     			t11 = space();
     			div6 = element("div");
-    			t12 = text("^");
+    			t12 = text(t12_value);
     			t13 = space();
     			div7 = element("div");
-    			t14 = text("&");
+    			t14 = text(t14_value);
     			t15 = space();
     			div8 = element("div");
     			t16 = text(t16_value);
     			t17 = space();
     			div9 = element("div");
-    			t18 = text("(");
+    			t18 = text(t18_value);
     			t19 = space();
     			div10 = element("div");
-    			t20 = text(")");
+    			t20 = text(t20_value);
     			t21 = space();
     			div11 = element("div");
-    			t22 = text("-");
+    			t22 = text(t22_value);
     			t23 = space();
     			div12 = element("div");
-    			t24 = text("=");
+    			t24 = text(t24_value);
     			t25 = space();
     			div13 = element("div");
-    			t26 = text("⟵");
+    			t26 = text(t26_value);
     			t27 = space();
     			div29 = element("div");
     			div15 = element("div");
-    			t28 = space();
+    			t28 = text(t28_value);
+    			t29 = space();
     			div16 = element("div");
-    			t29 = text("q");
-    			t30 = space();
+    			t30 = text(t30_value);
+    			t31 = space();
     			div17 = element("div");
-    			t31 = text("w");
-    			t32 = space();
+    			t32 = text(t32_value);
+    			t33 = space();
     			div18 = element("div");
-    			t33 = text("e");
-    			t34 = space();
+    			t34 = text(t34_value);
+    			t35 = space();
     			div19 = element("div");
-    			t35 = text("r");
-    			t36 = space();
+    			t36 = text(t36_value);
+    			t37 = space();
     			div20 = element("div");
-    			t37 = text("t");
-    			t38 = space();
+    			t38 = text(t38_value);
+    			t39 = space();
     			div21 = element("div");
-    			t39 = text("y");
-    			t40 = space();
+    			t40 = text(t40_value);
+    			t41 = space();
     			div22 = element("div");
-    			t41 = text("u");
-    			t42 = space();
+    			t42 = text(t42_value);
+    			t43 = space();
     			div23 = element("div");
-    			t43 = text("i");
-    			t44 = space();
+    			t44 = text(t44_value);
+    			t45 = space();
     			div24 = element("div");
-    			t45 = text("o");
-    			t46 = space();
+    			t46 = text(t46_value);
+    			t47 = space();
     			div25 = element("div");
-    			t47 = text("p");
-    			t48 = space();
+    			t48 = text(t48_value);
+    			t49 = space();
     			div26 = element("div");
-    			t49 = text("[");
-    			t50 = space();
+    			t50 = text(t50_value);
+    			t51 = space();
     			div27 = element("div");
-    			t51 = text("]");
-    			t52 = space();
+    			t52 = text(t52_value);
+    			t53 = space();
     			div28 = element("div");
-    			t53 = text("\\");
-    			t54 = space();
+    			t54 = text(t54_value);
+    			t55 = space();
     			div43 = element("div");
     			div30 = element("div");
-    			t55 = space();
-    			div31 = element("div");
-    			t56 = text("a");
+    			t56 = text(t56_value);
     			t57 = space();
-    			div32 = element("div");
-    			t58 = text("s");
+    			div31 = element("div");
+    			t58 = text(t58_value);
     			t59 = space();
-    			div33 = element("div");
-    			t60 = text("d");
+    			div32 = element("div");
+    			t60 = text(t60_value);
     			t61 = space();
-    			div34 = element("div");
-    			t62 = text("f");
+    			div33 = element("div");
+    			t62 = text(t62_value);
     			t63 = space();
-    			div35 = element("div");
-    			t64 = text("g");
+    			div34 = element("div");
+    			t64 = text(t64_value);
     			t65 = space();
-    			div36 = element("div");
-    			t66 = text("h");
+    			div35 = element("div");
+    			t66 = text(t66_value);
     			t67 = space();
-    			div37 = element("div");
-    			t68 = text("j");
+    			div36 = element("div");
+    			t68 = text(t68_value);
     			t69 = space();
-    			div38 = element("div");
-    			t70 = text("k");
+    			div37 = element("div");
+    			t70 = text(t70_value);
     			t71 = space();
-    			div39 = element("div");
-    			t72 = text("l");
+    			div38 = element("div");
+    			t72 = text(t72_value);
     			t73 = space();
-    			div40 = element("div");
-    			t74 = text(";");
+    			div39 = element("div");
+    			t74 = text(t74_value);
     			t75 = space();
-    			div41 = element("div");
-    			t76 = text("'");
+    			div40 = element("div");
+    			t76 = text(t76_value);
     			t77 = space();
-    			div42 = element("div");
-    			t78 = text("↵");
+    			div41 = element("div");
+    			t78 = text(t78_value);
     			t79 = space();
+    			div42 = element("div");
+    			t80 = text(t80_value);
+    			t81 = space();
     			div56 = element("div");
     			div44 = element("div");
-    			div44.textContent = "⇧";
-    			t81 = space();
-    			div45 = element("div");
-    			t82 = text("z");
+    			t82 = text(t82_value);
     			t83 = space();
-    			div46 = element("div");
-    			t84 = text("x");
+    			div45 = element("div");
+    			t84 = text(t84_value);
     			t85 = space();
-    			div47 = element("div");
-    			t86 = text("c");
+    			div46 = element("div");
+    			t86 = text(t86_value);
     			t87 = space();
-    			div48 = element("div");
-    			t88 = text("v");
+    			div47 = element("div");
+    			t88 = text(t88_value);
     			t89 = space();
-    			div49 = element("div");
-    			t90 = text("b");
+    			div48 = element("div");
+    			t90 = text(t90_value);
     			t91 = space();
-    			div50 = element("div");
-    			t92 = text("n");
+    			div49 = element("div");
+    			t92 = text(t92_value);
     			t93 = space();
-    			div51 = element("div");
-    			t94 = text("m");
+    			div50 = element("div");
+    			t94 = text(t94_value);
     			t95 = space();
-    			div52 = element("div");
-    			t96 = text(",");
+    			div51 = element("div");
+    			t96 = text(t96_value);
     			t97 = space();
-    			div53 = element("div");
-    			t98 = text(".");
+    			div52 = element("div");
+    			t98 = text(t98_value);
     			t99 = space();
-    			div54 = element("div");
-    			t100 = text("/");
+    			div53 = element("div");
+    			t100 = text(t100_value);
     			t101 = space();
-    			div55 = element("div");
-    			div55.textContent = "⇧";
+    			div54 = element("div");
+    			t102 = text(t102_value);
     			t103 = space();
+    			div55 = element("div");
+    			t104 = text(t104_value);
+    			t105 = space();
     			div64 = element("div");
     			div57 = element("div");
-    			t104 = text("⌃");
-    			t105 = space();
-    			div58 = element("div");
-    			t106 = text("⌥");
+    			t106 = text(t106_value);
     			t107 = space();
-    			div59 = element("div");
-    			t108 = text("⌘");
+    			div58 = element("div");
+    			t108 = text(t108_value);
     			t109 = space();
+    			div59 = element("div");
+    			t110 = text(t110_value);
+    			t111 = space();
     			div60 = element("div");
-    			t110 = space();
+    			t112 = text(t112_value);
+    			t113 = space();
     			div61 = element("div");
-    			t111 = text("⌘");
-    			t112 = space();
+    			t114 = text(t114_value);
+    			t115 = space();
     			div62 = element("div");
-    			t113 = text("⌥");
-    			t114 = space();
+    			t116 = text(t116_value);
+    			t117 = space();
     			div63 = element("div");
-    			t115 = text("⌃");
-    			t116 = space();
+    			t118 = text(t118_value);
+    			t119 = space();
     			if (default_slot) default_slot.c();
-    			attr_dev(div0, "class", "key svelte-1xqyb7b");
+    			attr_dev(div0, "class", "key svelte-s6zq7o");
     			set_style(div0, "background-color", /*$keys*/ ctx[2]["`"].color);
     			set_style(div0, "flex", "0.7");
-    			toggle_class(div0, "show", /*$keys*/ ctx[2]["`"]);
-    			add_location(div0, file, 61, 4, 1256);
-    			attr_dev(div1, "class", "key svelte-1xqyb7b");
+    			toggle_class(div0, "show", /*$keys*/ ctx[2]["`"].color);
+    			add_location(div0, file, 59, 4, 1212);
+    			attr_dev(div1, "class", "key svelte-s6zq7o");
     			set_style(div1, "background-color", /*$keys*/ ctx[2]["1"].color);
-    			toggle_class(div1, "show", /*$keys*/ ctx[2]["1"]);
-    			add_location(div1, file, 62, 4, 1363);
-    			attr_dev(div2, "class", "key svelte-1xqyb7b");
+    			toggle_class(div1, "show", /*$keys*/ ctx[2]["1"].color);
+    			add_location(div1, file, 62, 4, 1359);
+    			attr_dev(div2, "class", "key svelte-s6zq7o");
     			set_style(div2, "background-color", /*$keys*/ ctx[2]["2"].color);
-    			toggle_class(div2, "show", /*$keys*/ ctx[2]["2"]);
-    			add_location(div2, file, 63, 4, 1461);
-    			attr_dev(div3, "class", "key svelte-1xqyb7b");
+    			toggle_class(div2, "show", /*$keys*/ ctx[2]["2"].color);
+    			add_location(div2, file, 65, 4, 1497);
+    			attr_dev(div3, "class", "key svelte-s6zq7o");
     			set_style(div3, "background-color", /*$keys*/ ctx[2]["3"].color);
-    			toggle_class(div3, "show", /*$keys*/ ctx[2]["3"]);
-    			add_location(div3, file, 64, 4, 1559);
-    			attr_dev(div4, "class", "key svelte-1xqyb7b");
+    			toggle_class(div3, "show", /*$keys*/ ctx[2]["3"].color);
+    			add_location(div3, file, 68, 4, 1635);
+    			attr_dev(div4, "class", "key svelte-s6zq7o");
     			set_style(div4, "background-color", /*$keys*/ ctx[2]["4"].color);
-    			toggle_class(div4, "show", /*$keys*/ ctx[2]["4"]);
-    			add_location(div4, file, 65, 4, 1657);
-    			attr_dev(div5, "class", "key svelte-1xqyb7b");
+    			toggle_class(div4, "show", /*$keys*/ ctx[2]["4"].color);
+    			add_location(div4, file, 71, 4, 1773);
+    			attr_dev(div5, "class", "key svelte-s6zq7o");
     			set_style(div5, "background-color", /*$keys*/ ctx[2]["5"].color);
-    			toggle_class(div5, "show", /*$keys*/ ctx[2]["5"]);
-    			add_location(div5, file, 66, 4, 1755);
-    			attr_dev(div6, "class", "key svelte-1xqyb7b");
+    			toggle_class(div5, "show", /*$keys*/ ctx[2]["5"].color);
+    			add_location(div5, file, 74, 4, 1911);
+    			attr_dev(div6, "class", "key svelte-s6zq7o");
     			set_style(div6, "background-color", /*$keys*/ ctx[2]["6"].color);
-    			toggle_class(div6, "show", /*$keys*/ ctx[2]["6"]);
-    			add_location(div6, file, 67, 4, 1853);
-    			attr_dev(div7, "class", "key svelte-1xqyb7b");
+    			toggle_class(div6, "show", /*$keys*/ ctx[2]["6"].color);
+    			add_location(div6, file, 77, 4, 2049);
+    			attr_dev(div7, "class", "key svelte-s6zq7o");
     			set_style(div7, "background-color", /*$keys*/ ctx[2]["7"].color);
-    			toggle_class(div7, "show", /*$keys*/ ctx[2]["7"]);
-    			add_location(div7, file, 68, 4, 1951);
-    			attr_dev(div8, "class", "key svelte-1xqyb7b");
+    			toggle_class(div7, "show", /*$keys*/ ctx[2]["7"].color);
+    			add_location(div7, file, 80, 4, 2187);
+    			attr_dev(div8, "class", "key svelte-s6zq7o");
     			set_style(div8, "background-color", /*$keys*/ ctx[2]["8"].color);
-    			toggle_class(div8, "show", /*$keys*/ ctx[2]["8"]);
-    			add_location(div8, file, 69, 4, 2049);
-    			attr_dev(div9, "class", "key svelte-1xqyb7b");
+    			toggle_class(div8, "show", /*$keys*/ ctx[2]["8"].color);
+    			add_location(div8, file, 83, 4, 2325);
+    			attr_dev(div9, "class", "key svelte-s6zq7o");
     			set_style(div9, "background-color", /*$keys*/ ctx[2]["9"].color);
-    			toggle_class(div9, "show", /*$keys*/ ctx[2]["9"]);
-    			add_location(div9, file, 70, 4, 2163);
-    			attr_dev(div10, "class", "key svelte-1xqyb7b");
+    			toggle_class(div9, "show", /*$keys*/ ctx[2]["9"].color);
+    			add_location(div9, file, 86, 4, 2463);
+    			attr_dev(div10, "class", "key svelte-s6zq7o");
     			set_style(div10, "background-color", /*$keys*/ ctx[2]["0"].color);
-    			toggle_class(div10, "show", /*$keys*/ ctx[2]["0"]);
-    			add_location(div10, file, 71, 4, 2261);
-    			attr_dev(div11, "class", "key svelte-1xqyb7b");
+    			toggle_class(div10, "show", /*$keys*/ ctx[2]["0"].color);
+    			add_location(div10, file, 89, 4, 2601);
+    			attr_dev(div11, "class", "key svelte-s6zq7o");
     			set_style(div11, "background-color", /*$keys*/ ctx[2]["-"].color);
-    			toggle_class(div11, "show", /*$keys*/ ctx[2]["-"]);
-    			add_location(div11, file, 72, 4, 2359);
-    			attr_dev(div12, "class", "key svelte-1xqyb7b");
+    			toggle_class(div11, "show", /*$keys*/ ctx[2]["-"].color);
+    			add_location(div11, file, 92, 4, 2739);
+    			attr_dev(div12, "class", "key svelte-s6zq7o");
     			set_style(div12, "background-color", /*$keys*/ ctx[2]["="].color);
-    			toggle_class(div12, "show", /*$keys*/ ctx[2]["="]);
-    			add_location(div12, file, 73, 4, 2457);
-    			attr_dev(div13, "class", "key svelte-1xqyb7b");
+    			toggle_class(div12, "show", /*$keys*/ ctx[2]["="].color);
+    			add_location(div12, file, 95, 4, 2877);
+    			attr_dev(div13, "class", "key svelte-s6zq7o");
     			set_style(div13, "background-color", /*$keys*/ ctx[2]["del"].color);
     			set_style(div13, "flex", "1.5");
-    			toggle_class(div13, "show", /*$keys*/ ctx[2]["del"]);
-    			add_location(div13, file, 74, 4, 2555);
-    			attr_dev(div14, "class", "row svelte-1xqyb7b");
-    			add_location(div14, file, 60, 2, 1234);
-    			attr_dev(div15, "class", "key svelte-1xqyb7b");
+    			toggle_class(div13, "show", /*$keys*/ ctx[2]["del"].color);
+    			add_location(div13, file, 98, 4, 3015);
+    			attr_dev(div14, "class", "row svelte-s6zq7o");
+    			add_location(div14, file, 58, 2, 1190);
+    			attr_dev(div15, "class", "key svelte-s6zq7o");
     			set_style(div15, "background-color", /*$keys*/ ctx[2]["tab"].color);
-    			toggle_class(div15, "show", /*$keys*/ ctx[2]["tab"]);
-    			add_location(div15, file, 77, 4, 2696);
-    			attr_dev(div16, "class", "key svelte-1xqyb7b");
+    			toggle_class(div15, "show", /*$keys*/ ctx[2]["tab"].color);
+    			add_location(div15, file, 103, 4, 3198);
+    			attr_dev(div16, "class", "key svelte-s6zq7o");
     			set_style(div16, "background-color", /*$keys*/ ctx[2]["q"].color);
-    			toggle_class(div16, "show", /*$keys*/ ctx[2]["q"]);
-    			add_location(div16, file, 78, 4, 2793);
-    			attr_dev(div17, "class", "key svelte-1xqyb7b");
+    			toggle_class(div16, "show", /*$keys*/ ctx[2]["q"].color);
+    			add_location(div16, file, 106, 4, 3342);
+    			attr_dev(div17, "class", "key svelte-s6zq7o");
     			set_style(div17, "background-color", /*$keys*/ ctx[2]["w"].color);
-    			toggle_class(div17, "show", /*$keys*/ ctx[2]["w"]);
-    			add_location(div17, file, 79, 4, 2891);
-    			attr_dev(div18, "class", "key svelte-1xqyb7b");
+    			toggle_class(div17, "show", /*$keys*/ ctx[2]["w"].color);
+    			add_location(div17, file, 109, 4, 3480);
+    			attr_dev(div18, "class", "key svelte-s6zq7o");
     			set_style(div18, "background-color", /*$keys*/ ctx[2]["e"].color);
-    			toggle_class(div18, "show", /*$keys*/ ctx[2]["e"]);
-    			add_location(div18, file, 80, 4, 2989);
-    			attr_dev(div19, "class", "key svelte-1xqyb7b");
+    			toggle_class(div18, "show", /*$keys*/ ctx[2]["e"].color);
+    			add_location(div18, file, 112, 4, 3618);
+    			attr_dev(div19, "class", "key svelte-s6zq7o");
     			set_style(div19, "background-color", /*$keys*/ ctx[2]["r"].color);
-    			toggle_class(div19, "show", /*$keys*/ ctx[2]["r"]);
-    			add_location(div19, file, 81, 4, 3087);
-    			attr_dev(div20, "class", "key svelte-1xqyb7b");
+    			toggle_class(div19, "show", /*$keys*/ ctx[2]["r"].color);
+    			add_location(div19, file, 115, 4, 3756);
+    			attr_dev(div20, "class", "key svelte-s6zq7o");
     			set_style(div20, "background-color", /*$keys*/ ctx[2]["t"].color);
-    			toggle_class(div20, "show", /*$keys*/ ctx[2]["t"]);
-    			add_location(div20, file, 82, 4, 3185);
-    			attr_dev(div21, "class", "key svelte-1xqyb7b");
+    			toggle_class(div20, "show", /*$keys*/ ctx[2]["t"].color);
+    			add_location(div20, file, 118, 4, 3894);
+    			attr_dev(div21, "class", "key svelte-s6zq7o");
     			set_style(div21, "background-color", /*$keys*/ ctx[2]["y"].color);
-    			toggle_class(div21, "show", /*$keys*/ ctx[2]["y"]);
-    			add_location(div21, file, 83, 4, 3283);
-    			attr_dev(div22, "class", "key svelte-1xqyb7b");
+    			toggle_class(div21, "show", /*$keys*/ ctx[2]["y"].color);
+    			add_location(div21, file, 121, 4, 4032);
+    			attr_dev(div22, "class", "key svelte-s6zq7o");
     			set_style(div22, "background-color", /*$keys*/ ctx[2]["u"].color);
-    			toggle_class(div22, "show", /*$keys*/ ctx[2]["u"]);
-    			add_location(div22, file, 84, 4, 3381);
-    			attr_dev(div23, "class", "key svelte-1xqyb7b");
+    			toggle_class(div22, "show", /*$keys*/ ctx[2]["u"].color);
+    			add_location(div22, file, 124, 4, 4170);
+    			attr_dev(div23, "class", "key svelte-s6zq7o");
     			set_style(div23, "background-color", /*$keys*/ ctx[2]["i"].color);
-    			toggle_class(div23, "show", /*$keys*/ ctx[2]["i"]);
-    			add_location(div23, file, 85, 4, 3479);
-    			attr_dev(div24, "class", "key svelte-1xqyb7b");
+    			toggle_class(div23, "show", /*$keys*/ ctx[2]["i"].color);
+    			add_location(div23, file, 127, 4, 4308);
+    			attr_dev(div24, "class", "key svelte-s6zq7o");
     			set_style(div24, "background-color", /*$keys*/ ctx[2]["o"].color);
-    			toggle_class(div24, "show", /*$keys*/ ctx[2]["o"]);
-    			add_location(div24, file, 86, 4, 3577);
-    			attr_dev(div25, "class", "key svelte-1xqyb7b");
+    			toggle_class(div24, "show", /*$keys*/ ctx[2]["o"].color);
+    			add_location(div24, file, 130, 4, 4446);
+    			attr_dev(div25, "class", "key svelte-s6zq7o");
     			set_style(div25, "background-color", /*$keys*/ ctx[2]["p"].color);
-    			toggle_class(div25, "show", /*$keys*/ ctx[2]["p"]);
-    			add_location(div25, file, 87, 4, 3675);
-    			attr_dev(div26, "class", "key svelte-1xqyb7b");
+    			toggle_class(div25, "show", /*$keys*/ ctx[2]["p"].color);
+    			add_location(div25, file, 133, 4, 4584);
+    			attr_dev(div26, "class", "key svelte-s6zq7o");
     			set_style(div26, "background-color", /*$keys*/ ctx[2]["["].color);
-    			toggle_class(div26, "show", /*$keys*/ ctx[2]["["]);
-    			add_location(div26, file, 88, 4, 3773);
-    			attr_dev(div27, "class", "key svelte-1xqyb7b");
+    			toggle_class(div26, "show", /*$keys*/ ctx[2]["["].color);
+    			add_location(div26, file, 136, 4, 4722);
+    			attr_dev(div27, "class", "key svelte-s6zq7o");
     			set_style(div27, "background-color", /*$keys*/ ctx[2]["]"].color);
-    			toggle_class(div27, "show", /*$keys*/ ctx[2]["]"]);
-    			add_location(div27, file, 89, 4, 3871);
-    			attr_dev(div28, "class", "key svelte-1xqyb7b");
+    			toggle_class(div27, "show", /*$keys*/ ctx[2]["]"].color);
+    			add_location(div27, file, 139, 4, 4860);
+    			attr_dev(div28, "class", "key svelte-s6zq7o");
     			set_style(div28, "background-color", /*$keys*/ ctx[2]["\\"].color);
-    			toggle_class(div28, "show", /*$keys*/ ctx[2]["'"]);
-    			add_location(div28, file, 90, 4, 3969);
-    			attr_dev(div29, "class", "row svelte-1xqyb7b");
-    			add_location(div29, file, 76, 2, 2674);
-    			attr_dev(div30, "class", "key svelte-1xqyb7b");
+    			toggle_class(div28, "show", /*$keys*/ ctx[2]["\\"].color);
+    			add_location(div28, file, 142, 4, 4998);
+    			attr_dev(div29, "class", "row svelte-s6zq7o");
+    			add_location(div29, file, 102, 2, 3176);
+    			attr_dev(div30, "class", "key svelte-s6zq7o");
+    			set_style(div30, "background-color", /*$keys*/ ctx[2]["caps"].color);
     			set_style(div30, "flex", "1.6");
-    			toggle_class(div30, "show", /*$keys*/ ctx[2]["caps"]);
-    			add_location(div30, file, 93, 4, 4097);
-    			attr_dev(div31, "class", "key svelte-1xqyb7b");
+    			toggle_class(div30, "show", /*$keys*/ ctx[2]["caps"].color);
+    			add_location(div30, file, 147, 4, 5168);
+    			attr_dev(div31, "class", "key svelte-s6zq7o");
     			set_style(div31, "background-color", /*$keys*/ ctx[2]["a"].color);
-    			toggle_class(div31, "show", /*$keys*/ ctx[2]["a"]);
-    			add_location(div31, file, 94, 4, 4166);
-    			attr_dev(div32, "class", "key svelte-1xqyb7b");
+    			toggle_class(div31, "show", /*$keys*/ ctx[2]["a"].color);
+    			add_location(div31, file, 150, 4, 5325);
+    			attr_dev(div32, "class", "key svelte-s6zq7o");
     			set_style(div32, "background-color", /*$keys*/ ctx[2]["s"].color);
-    			toggle_class(div32, "show", /*$keys*/ ctx[2]["s"]);
-    			add_location(div32, file, 95, 4, 4264);
-    			attr_dev(div33, "class", "key svelte-1xqyb7b");
+    			toggle_class(div32, "show", /*$keys*/ ctx[2]["s"].color);
+    			add_location(div32, file, 153, 4, 5463);
+    			attr_dev(div33, "class", "key svelte-s6zq7o");
     			set_style(div33, "background-color", /*$keys*/ ctx[2]["d"].color);
-    			toggle_class(div33, "show", /*$keys*/ ctx[2]["d"]);
-    			add_location(div33, file, 96, 4, 4362);
-    			attr_dev(div34, "class", "key svelte-1xqyb7b");
+    			toggle_class(div33, "show", /*$keys*/ ctx[2]["d"].color);
+    			add_location(div33, file, 156, 4, 5601);
+    			attr_dev(div34, "class", "key svelte-s6zq7o");
     			set_style(div34, "background-color", /*$keys*/ ctx[2]["f"].color);
-    			toggle_class(div34, "show", /*$keys*/ ctx[2]["f"]);
-    			add_location(div34, file, 97, 4, 4460);
-    			attr_dev(div35, "class", "key svelte-1xqyb7b");
+    			toggle_class(div34, "show", /*$keys*/ ctx[2]["f"].color);
+    			add_location(div34, file, 159, 4, 5739);
+    			attr_dev(div35, "class", "key svelte-s6zq7o");
     			set_style(div35, "background-color", /*$keys*/ ctx[2]["g"].color);
-    			toggle_class(div35, "show", /*$keys*/ ctx[2]["g"]);
-    			add_location(div35, file, 98, 4, 4558);
-    			attr_dev(div36, "class", "key svelte-1xqyb7b");
+    			toggle_class(div35, "show", /*$keys*/ ctx[2]["g"].color);
+    			add_location(div35, file, 162, 4, 5877);
+    			attr_dev(div36, "class", "key svelte-s6zq7o");
     			set_style(div36, "background-color", /*$keys*/ ctx[2]["h"].color);
-    			toggle_class(div36, "show", /*$keys*/ ctx[2]["h"]);
-    			add_location(div36, file, 99, 4, 4656);
-    			attr_dev(div37, "class", "key svelte-1xqyb7b");
+    			toggle_class(div36, "show", /*$keys*/ ctx[2]["h"].color);
+    			add_location(div36, file, 165, 4, 6015);
+    			attr_dev(div37, "class", "key svelte-s6zq7o");
     			set_style(div37, "background-color", /*$keys*/ ctx[2]["j"].color);
-    			toggle_class(div37, "show", /*$keys*/ ctx[2]["j"]);
-    			add_location(div37, file, 100, 4, 4754);
-    			attr_dev(div38, "class", "key svelte-1xqyb7b");
+    			toggle_class(div37, "show", /*$keys*/ ctx[2]["j"].color);
+    			add_location(div37, file, 168, 4, 6153);
+    			attr_dev(div38, "class", "key svelte-s6zq7o");
     			set_style(div38, "background-color", /*$keys*/ ctx[2]["k"].color);
-    			toggle_class(div38, "show", /*$keys*/ ctx[2]["k"]);
-    			add_location(div38, file, 101, 4, 4852);
-    			attr_dev(div39, "class", "key svelte-1xqyb7b");
+    			toggle_class(div38, "show", /*$keys*/ ctx[2]["k"].color);
+    			add_location(div38, file, 171, 4, 6291);
+    			attr_dev(div39, "class", "key svelte-s6zq7o");
     			set_style(div39, "background-color", /*$keys*/ ctx[2]["l"].color);
-    			toggle_class(div39, "show", /*$keys*/ ctx[2]["l"]);
-    			add_location(div39, file, 102, 4, 4950);
-    			attr_dev(div40, "class", "key svelte-1xqyb7b");
+    			toggle_class(div39, "show", /*$keys*/ ctx[2]["l"].color);
+    			add_location(div39, file, 174, 4, 6429);
+    			attr_dev(div40, "class", "key svelte-s6zq7o");
     			set_style(div40, "background-color", /*$keys*/ ctx[2][";"].color);
-    			toggle_class(div40, "show", /*$keys*/ ctx[2][";"]);
-    			add_location(div40, file, 103, 4, 5048);
-    			attr_dev(div41, "class", "key svelte-1xqyb7b");
+    			toggle_class(div40, "show", /*$keys*/ ctx[2][";"].color);
+    			add_location(div40, file, 177, 4, 6567);
+    			attr_dev(div41, "class", "key svelte-s6zq7o");
     			set_style(div41, "background-color", /*$keys*/ ctx[2]["'"].color);
-    			toggle_class(div41, "show", /*$keys*/ ctx[2]["'"]);
-    			add_location(div41, file, 104, 4, 5146);
-    			attr_dev(div42, "class", "key svelte-1xqyb7b");
+    			toggle_class(div41, "show", /*$keys*/ ctx[2]["'"].color);
+    			add_location(div41, file, 180, 4, 6705);
+    			attr_dev(div42, "class", "key svelte-s6zq7o");
     			set_style(div42, "background-color", /*$keys*/ ctx[2]["enter"].color);
     			set_style(div42, "flex", "1.6");
-    			toggle_class(div42, "show", /*$keys*/ ctx[2]["enter"]);
-    			add_location(div42, file, 105, 4, 5244);
-    			attr_dev(div43, "class", "row svelte-1xqyb7b");
-    			add_location(div43, file, 92, 2, 4075);
-    			attr_dev(div44, "class", "key svelte-1xqyb7b");
+    			toggle_class(div42, "show", /*$keys*/ ctx[2]["enter"].color);
+    			add_location(div42, file, 183, 4, 6843);
+    			attr_dev(div43, "class", "row svelte-s6zq7o");
+    			add_location(div43, file, 146, 2, 5146);
+    			attr_dev(div44, "class", "key svelte-s6zq7o");
+    			set_style(div44, "background-color", /*$keys*/ ctx[2]["lshift"].color);
     			set_style(div44, "flex", "2.2");
-    			toggle_class(div44, "show", /*$keys*/ ctx[2]["lshift"]);
-    			add_location(div44, file, 108, 4, 5389);
-    			attr_dev(div45, "class", "key svelte-1xqyb7b");
+    			toggle_class(div44, "show", /*$keys*/ ctx[2]["lshift"].color);
+    			add_location(div44, file, 188, 4, 7032);
+    			attr_dev(div45, "class", "key svelte-s6zq7o");
     			set_style(div45, "background-color", /*$keys*/ ctx[2]["z"].color);
-    			toggle_class(div45, "show", /*$keys*/ ctx[2]["z"]);
-    			add_location(div45, file, 109, 4, 5465);
-    			attr_dev(div46, "class", "key svelte-1xqyb7b");
+    			toggle_class(div45, "show", /*$keys*/ ctx[2]["z"].color);
+    			add_location(div45, file, 191, 4, 7194);
+    			attr_dev(div46, "class", "key svelte-s6zq7o");
     			set_style(div46, "background-color", /*$keys*/ ctx[2]["x"].color);
-    			toggle_class(div46, "show", /*$keys*/ ctx[2]["x"]);
-    			add_location(div46, file, 110, 4, 5563);
-    			attr_dev(div47, "class", "key svelte-1xqyb7b");
+    			toggle_class(div46, "show", /*$keys*/ ctx[2]["x"].color);
+    			add_location(div46, file, 194, 4, 7332);
+    			attr_dev(div47, "class", "key svelte-s6zq7o");
     			set_style(div47, "background-color", /*$keys*/ ctx[2]["c"].color);
-    			toggle_class(div47, "show", /*$keys*/ ctx[2]["c"]);
-    			add_location(div47, file, 111, 4, 5661);
-    			attr_dev(div48, "class", "key svelte-1xqyb7b");
+    			toggle_class(div47, "show", /*$keys*/ ctx[2]["c"].color);
+    			add_location(div47, file, 197, 4, 7470);
+    			attr_dev(div48, "class", "key svelte-s6zq7o");
     			set_style(div48, "background-color", /*$keys*/ ctx[2]["v"].color);
-    			toggle_class(div48, "show", /*$keys*/ ctx[2]["v"]);
-    			add_location(div48, file, 112, 4, 5759);
-    			attr_dev(div49, "class", "key svelte-1xqyb7b");
+    			toggle_class(div48, "show", /*$keys*/ ctx[2]["v"].color);
+    			add_location(div48, file, 200, 4, 7608);
+    			attr_dev(div49, "class", "key svelte-s6zq7o");
     			set_style(div49, "background-color", /*$keys*/ ctx[2]["b"].color);
-    			toggle_class(div49, "show", /*$keys*/ ctx[2]["b"]);
-    			add_location(div49, file, 113, 4, 5857);
-    			attr_dev(div50, "class", "key svelte-1xqyb7b");
+    			toggle_class(div49, "show", /*$keys*/ ctx[2]["b"].color);
+    			add_location(div49, file, 203, 4, 7746);
+    			attr_dev(div50, "class", "key svelte-s6zq7o");
     			set_style(div50, "background-color", /*$keys*/ ctx[2]["n"].color);
-    			toggle_class(div50, "show", /*$keys*/ ctx[2]["n"]);
-    			add_location(div50, file, 114, 4, 5955);
-    			attr_dev(div51, "class", "key svelte-1xqyb7b");
+    			toggle_class(div50, "show", /*$keys*/ ctx[2]["n"].color);
+    			add_location(div50, file, 206, 4, 7884);
+    			attr_dev(div51, "class", "key svelte-s6zq7o");
     			set_style(div51, "background-color", /*$keys*/ ctx[2]["m"].color);
-    			toggle_class(div51, "show", /*$keys*/ ctx[2]["m"]);
-    			add_location(div51, file, 115, 4, 6053);
-    			attr_dev(div52, "class", "key svelte-1xqyb7b");
+    			toggle_class(div51, "show", /*$keys*/ ctx[2]["m"].color);
+    			add_location(div51, file, 209, 4, 8022);
+    			attr_dev(div52, "class", "key svelte-s6zq7o");
     			set_style(div52, "background-color", /*$keys*/ ctx[2][","].color);
-    			toggle_class(div52, "show", /*$keys*/ ctx[2][","]);
-    			add_location(div52, file, 116, 4, 6151);
-    			attr_dev(div53, "class", "key svelte-1xqyb7b");
+    			toggle_class(div52, "show", /*$keys*/ ctx[2][","].color);
+    			add_location(div52, file, 212, 4, 8160);
+    			attr_dev(div53, "class", "key svelte-s6zq7o");
     			set_style(div53, "background-color", /*$keys*/ ctx[2]["."].color);
-    			toggle_class(div53, "show", /*$keys*/ ctx[2]["."]);
-    			add_location(div53, file, 117, 4, 6249);
-    			attr_dev(div54, "class", "key svelte-1xqyb7b");
+    			toggle_class(div53, "show", /*$keys*/ ctx[2]["."].color);
+    			add_location(div53, file, 215, 4, 8298);
+    			attr_dev(div54, "class", "key svelte-s6zq7o");
     			set_style(div54, "background-color", /*$keys*/ ctx[2]["/"].color);
-    			toggle_class(div54, "show", /*$keys*/ ctx[2]["/"]);
-    			add_location(div54, file, 118, 4, 6347);
-    			attr_dev(div55, "class", "key svelte-1xqyb7b");
+    			toggle_class(div54, "show", /*$keys*/ ctx[2]["/"].color);
+    			add_location(div54, file, 218, 4, 8436);
+    			attr_dev(div55, "class", "key svelte-s6zq7o");
+    			set_style(div55, "background-color", /*$keys*/ ctx[2]["rshift"].color);
     			set_style(div55, "flex", "2.2");
-    			toggle_class(div55, "show", /*$keys*/ ctx[2]["rshift"]);
-    			add_location(div55, file, 119, 4, 6445);
-    			attr_dev(div56, "class", "row svelte-1xqyb7b");
-    			add_location(div56, file, 107, 2, 5367);
-    			attr_dev(div57, "class", "key svelte-1xqyb7b");
+    			toggle_class(div55, "show", /*$keys*/ ctx[2]["rshift"].color);
+    			add_location(div55, file, 221, 4, 8574);
+    			attr_dev(div56, "class", "row svelte-s6zq7o");
+    			add_location(div56, file, 187, 2, 7010);
+    			attr_dev(div57, "class", "key svelte-s6zq7o");
     			set_style(div57, "background-color", /*$keys*/ ctx[2]["lctrl"].color);
     			set_style(div57, "flex", "1.4");
-    			toggle_class(div57, "show", /*$keys*/ ctx[2]["lctrl"]);
-    			add_location(div57, file, 122, 4, 6550);
-    			attr_dev(div58, "class", "key svelte-1xqyb7b");
+    			toggle_class(div57, "show", /*$keys*/ ctx[2]["lctrl"].color);
+    			add_location(div57, file, 226, 4, 8766);
+    			attr_dev(div58, "class", "key svelte-s6zq7o");
     			set_style(div58, "background-color", /*$keys*/ ctx[2]["lopt"].color);
     			set_style(div58, "flex", "1.4");
-    			toggle_class(div58, "show", /*$keys*/ ctx[2]["lopt"]);
-    			add_location(div58, file, 123, 4, 6666);
-    			attr_dev(div59, "class", "key svelte-1xqyb7b");
+    			toggle_class(div58, "show", /*$keys*/ ctx[2]["lopt"].color);
+    			add_location(div58, file, 229, 4, 8926);
+    			attr_dev(div59, "class", "key svelte-s6zq7o");
     			set_style(div59, "background-color", /*$keys*/ ctx[2]["lcmd"].color);
     			set_style(div59, "flex", "1.4");
-    			toggle_class(div59, "show", /*$keys*/ ctx[2]["lcmd"]);
-    			add_location(div59, file, 124, 4, 6780);
-    			attr_dev(div60, "class", "key svelte-1xqyb7b");
+    			toggle_class(div59, "show", /*$keys*/ ctx[2]["lcmd"].color);
+    			add_location(div59, file, 232, 4, 9083);
+    			attr_dev(div60, "class", "key svelte-s6zq7o");
     			set_style(div60, "background-color", /*$keys*/ ctx[2]["space"].color);
     			set_style(div60, "flex", "6.8");
-    			toggle_class(div60, "show", /*$keys*/ ctx[2]["space"]);
-    			add_location(div60, file, 125, 4, 6894);
-    			attr_dev(div61, "class", "key svelte-1xqyb7b");
+    			toggle_class(div60, "show", /*$keys*/ ctx[2]["space"].color);
+    			add_location(div60, file, 235, 4, 9240);
+    			attr_dev(div61, "class", "key svelte-s6zq7o");
     			set_style(div61, "background-color", /*$keys*/ ctx[2]["rcmd"].color);
     			set_style(div61, "flex", "1.4");
-    			toggle_class(div61, "show", /*$keys*/ ctx[2]["rcmd"]);
-    			add_location(div61, file, 126, 4, 7005);
-    			attr_dev(div62, "class", "key svelte-1xqyb7b");
+    			toggle_class(div61, "show", /*$keys*/ ctx[2]["rcmd"].color);
+    			add_location(div61, file, 238, 4, 9400);
+    			attr_dev(div62, "class", "key svelte-s6zq7o");
     			set_style(div62, "background-color", /*$keys*/ ctx[2]["ropt"].color);
     			set_style(div62, "flex", "1.4");
-    			toggle_class(div62, "show", /*$keys*/ ctx[2]["ropt"]);
-    			add_location(div62, file, 127, 4, 7119);
-    			attr_dev(div63, "class", "key svelte-1xqyb7b");
+    			toggle_class(div62, "show", /*$keys*/ ctx[2]["ropt"].color);
+    			add_location(div62, file, 241, 4, 9557);
+    			attr_dev(div63, "class", "key svelte-s6zq7o");
     			set_style(div63, "background-color", /*$keys*/ ctx[2]["rctrl"].color);
     			set_style(div63, "flex", "1.4");
-    			toggle_class(div63, "show", /*$keys*/ ctx[2]["rctrl"]);
-    			add_location(div63, file, 128, 4, 7233);
-    			attr_dev(div64, "class", "row svelte-1xqyb7b");
-    			add_location(div64, file, 121, 2, 6528);
-    			attr_dev(div65, "class", "container svelte-1xqyb7b");
+    			toggle_class(div63, "show", /*$keys*/ ctx[2]["rctrl"].color);
+    			add_location(div63, file, 244, 4, 9714);
+    			attr_dev(div64, "class", "row svelte-s6zq7o");
+    			add_location(div64, file, 225, 2, 8744);
+    			attr_dev(div65, "class", "container svelte-s6zq7o");
     			set_style(div65, "max-height", /*height*/ ctx[1] + "px");
     			add_render_callback(() => /*div65_elementresize_handler*/ ctx[5].call(div65));
-    			add_location(div65, file, 59, 0, 1156);
+    			add_location(div65, file, 57, 0, 1112);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1278,142 +1348,147 @@ var app = (function () {
     			append_dev(div65, t27);
     			append_dev(div65, div29);
     			append_dev(div29, div15);
-    			append_dev(div29, t28);
+    			append_dev(div15, t28);
+    			append_dev(div29, t29);
     			append_dev(div29, div16);
-    			append_dev(div16, t29);
-    			append_dev(div29, t30);
+    			append_dev(div16, t30);
+    			append_dev(div29, t31);
     			append_dev(div29, div17);
-    			append_dev(div17, t31);
-    			append_dev(div29, t32);
+    			append_dev(div17, t32);
+    			append_dev(div29, t33);
     			append_dev(div29, div18);
-    			append_dev(div18, t33);
-    			append_dev(div29, t34);
+    			append_dev(div18, t34);
+    			append_dev(div29, t35);
     			append_dev(div29, div19);
-    			append_dev(div19, t35);
-    			append_dev(div29, t36);
+    			append_dev(div19, t36);
+    			append_dev(div29, t37);
     			append_dev(div29, div20);
-    			append_dev(div20, t37);
-    			append_dev(div29, t38);
+    			append_dev(div20, t38);
+    			append_dev(div29, t39);
     			append_dev(div29, div21);
-    			append_dev(div21, t39);
-    			append_dev(div29, t40);
+    			append_dev(div21, t40);
+    			append_dev(div29, t41);
     			append_dev(div29, div22);
-    			append_dev(div22, t41);
-    			append_dev(div29, t42);
+    			append_dev(div22, t42);
+    			append_dev(div29, t43);
     			append_dev(div29, div23);
-    			append_dev(div23, t43);
-    			append_dev(div29, t44);
+    			append_dev(div23, t44);
+    			append_dev(div29, t45);
     			append_dev(div29, div24);
-    			append_dev(div24, t45);
-    			append_dev(div29, t46);
+    			append_dev(div24, t46);
+    			append_dev(div29, t47);
     			append_dev(div29, div25);
-    			append_dev(div25, t47);
-    			append_dev(div29, t48);
+    			append_dev(div25, t48);
+    			append_dev(div29, t49);
     			append_dev(div29, div26);
-    			append_dev(div26, t49);
-    			append_dev(div29, t50);
+    			append_dev(div26, t50);
+    			append_dev(div29, t51);
     			append_dev(div29, div27);
-    			append_dev(div27, t51);
-    			append_dev(div29, t52);
+    			append_dev(div27, t52);
+    			append_dev(div29, t53);
     			append_dev(div29, div28);
-    			append_dev(div28, t53);
-    			append_dev(div65, t54);
+    			append_dev(div28, t54);
+    			append_dev(div65, t55);
     			append_dev(div65, div43);
     			append_dev(div43, div30);
-    			append_dev(div43, t55);
-    			append_dev(div43, div31);
-    			append_dev(div31, t56);
+    			append_dev(div30, t56);
     			append_dev(div43, t57);
-    			append_dev(div43, div32);
-    			append_dev(div32, t58);
+    			append_dev(div43, div31);
+    			append_dev(div31, t58);
     			append_dev(div43, t59);
-    			append_dev(div43, div33);
-    			append_dev(div33, t60);
+    			append_dev(div43, div32);
+    			append_dev(div32, t60);
     			append_dev(div43, t61);
-    			append_dev(div43, div34);
-    			append_dev(div34, t62);
+    			append_dev(div43, div33);
+    			append_dev(div33, t62);
     			append_dev(div43, t63);
-    			append_dev(div43, div35);
-    			append_dev(div35, t64);
+    			append_dev(div43, div34);
+    			append_dev(div34, t64);
     			append_dev(div43, t65);
-    			append_dev(div43, div36);
-    			append_dev(div36, t66);
+    			append_dev(div43, div35);
+    			append_dev(div35, t66);
     			append_dev(div43, t67);
-    			append_dev(div43, div37);
-    			append_dev(div37, t68);
+    			append_dev(div43, div36);
+    			append_dev(div36, t68);
     			append_dev(div43, t69);
-    			append_dev(div43, div38);
-    			append_dev(div38, t70);
+    			append_dev(div43, div37);
+    			append_dev(div37, t70);
     			append_dev(div43, t71);
-    			append_dev(div43, div39);
-    			append_dev(div39, t72);
+    			append_dev(div43, div38);
+    			append_dev(div38, t72);
     			append_dev(div43, t73);
-    			append_dev(div43, div40);
-    			append_dev(div40, t74);
+    			append_dev(div43, div39);
+    			append_dev(div39, t74);
     			append_dev(div43, t75);
-    			append_dev(div43, div41);
-    			append_dev(div41, t76);
+    			append_dev(div43, div40);
+    			append_dev(div40, t76);
     			append_dev(div43, t77);
+    			append_dev(div43, div41);
+    			append_dev(div41, t78);
+    			append_dev(div43, t79);
     			append_dev(div43, div42);
-    			append_dev(div42, t78);
-    			append_dev(div65, t79);
+    			append_dev(div42, t80);
+    			append_dev(div65, t81);
     			append_dev(div65, div56);
     			append_dev(div56, div44);
-    			append_dev(div56, t81);
-    			append_dev(div56, div45);
-    			append_dev(div45, t82);
+    			append_dev(div44, t82);
     			append_dev(div56, t83);
-    			append_dev(div56, div46);
-    			append_dev(div46, t84);
+    			append_dev(div56, div45);
+    			append_dev(div45, t84);
     			append_dev(div56, t85);
-    			append_dev(div56, div47);
-    			append_dev(div47, t86);
+    			append_dev(div56, div46);
+    			append_dev(div46, t86);
     			append_dev(div56, t87);
-    			append_dev(div56, div48);
-    			append_dev(div48, t88);
+    			append_dev(div56, div47);
+    			append_dev(div47, t88);
     			append_dev(div56, t89);
-    			append_dev(div56, div49);
-    			append_dev(div49, t90);
+    			append_dev(div56, div48);
+    			append_dev(div48, t90);
     			append_dev(div56, t91);
-    			append_dev(div56, div50);
-    			append_dev(div50, t92);
+    			append_dev(div56, div49);
+    			append_dev(div49, t92);
     			append_dev(div56, t93);
-    			append_dev(div56, div51);
-    			append_dev(div51, t94);
+    			append_dev(div56, div50);
+    			append_dev(div50, t94);
     			append_dev(div56, t95);
-    			append_dev(div56, div52);
-    			append_dev(div52, t96);
+    			append_dev(div56, div51);
+    			append_dev(div51, t96);
     			append_dev(div56, t97);
-    			append_dev(div56, div53);
-    			append_dev(div53, t98);
+    			append_dev(div56, div52);
+    			append_dev(div52, t98);
     			append_dev(div56, t99);
-    			append_dev(div56, div54);
-    			append_dev(div54, t100);
+    			append_dev(div56, div53);
+    			append_dev(div53, t100);
     			append_dev(div56, t101);
+    			append_dev(div56, div54);
+    			append_dev(div54, t102);
+    			append_dev(div56, t103);
     			append_dev(div56, div55);
-    			append_dev(div65, t103);
+    			append_dev(div55, t104);
+    			append_dev(div65, t105);
     			append_dev(div65, div64);
     			append_dev(div64, div57);
-    			append_dev(div57, t104);
-    			append_dev(div64, t105);
-    			append_dev(div64, div58);
-    			append_dev(div58, t106);
+    			append_dev(div57, t106);
     			append_dev(div64, t107);
-    			append_dev(div64, div59);
-    			append_dev(div59, t108);
+    			append_dev(div64, div58);
+    			append_dev(div58, t108);
     			append_dev(div64, t109);
+    			append_dev(div64, div59);
+    			append_dev(div59, t110);
+    			append_dev(div64, t111);
     			append_dev(div64, div60);
-    			append_dev(div64, t110);
+    			append_dev(div60, t112);
+    			append_dev(div64, t113);
     			append_dev(div64, div61);
-    			append_dev(div61, t111);
-    			append_dev(div64, t112);
+    			append_dev(div61, t114);
+    			append_dev(div64, t115);
     			append_dev(div64, div62);
-    			append_dev(div62, t113);
-    			append_dev(div64, t114);
+    			append_dev(div62, t116);
+    			append_dev(div64, t117);
     			append_dev(div64, div63);
-    			append_dev(div63, t115);
+    			append_dev(div63, t118);
     			div65_resize_listener = add_resize_listener(div65, /*div65_elementresize_handler*/ ctx[5].bind(div65));
-    			insert_dev(target, t116, anchor);
+    			insert_dev(target, t119, anchor);
 
     			if (default_slot) {
     				default_slot.m(target, anchor);
@@ -1422,474 +1497,604 @@ var app = (function () {
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
+    			if ((!current || dirty & /*$keys*/ 4) && t0_value !== (t0_value = (/*$keys*/ ctx[2]["`"].show || "") + "")) set_data_dev(t0, t0_value);
+
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div0, "background-color", /*$keys*/ ctx[2]["`"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div0, "show", /*$keys*/ ctx[2]["`"]);
+    				toggle_class(div0, "show", /*$keys*/ ctx[2]["`"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t2_value !== (t2_value = (/*$keys*/ ctx[2]["1"].show || "") + "")) set_data_dev(t2, t2_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div1, "background-color", /*$keys*/ ctx[2]["1"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div1, "show", /*$keys*/ ctx[2]["1"]);
+    				toggle_class(div1, "show", /*$keys*/ ctx[2]["1"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t4_value !== (t4_value = (/*$keys*/ ctx[2]["2"].show || "") + "")) set_data_dev(t4, t4_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div2, "background-color", /*$keys*/ ctx[2]["2"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div2, "show", /*$keys*/ ctx[2]["2"]);
+    				toggle_class(div2, "show", /*$keys*/ ctx[2]["2"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t6_value !== (t6_value = (/*$keys*/ ctx[2]["3"].show || "") + "")) set_data_dev(t6, t6_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div3, "background-color", /*$keys*/ ctx[2]["3"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div3, "show", /*$keys*/ ctx[2]["3"]);
+    				toggle_class(div3, "show", /*$keys*/ ctx[2]["3"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t8_value !== (t8_value = (/*$keys*/ ctx[2]["4"].show || "") + "")) set_data_dev(t8, t8_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div4, "background-color", /*$keys*/ ctx[2]["4"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div4, "show", /*$keys*/ ctx[2]["4"]);
+    				toggle_class(div4, "show", /*$keys*/ ctx[2]["4"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t10_value !== (t10_value = (/*$keys*/ ctx[2]["5"].show || "") + "")) set_data_dev(t10, t10_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div5, "background-color", /*$keys*/ ctx[2]["5"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div5, "show", /*$keys*/ ctx[2]["5"]);
+    				toggle_class(div5, "show", /*$keys*/ ctx[2]["5"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t12_value !== (t12_value = (/*$keys*/ ctx[2]["6"].show || "") + "")) set_data_dev(t12, t12_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div6, "background-color", /*$keys*/ ctx[2]["6"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div6, "show", /*$keys*/ ctx[2]["6"]);
+    				toggle_class(div6, "show", /*$keys*/ ctx[2]["6"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t14_value !== (t14_value = (/*$keys*/ ctx[2]["7"].show || "") + "")) set_data_dev(t14, t14_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div7, "background-color", /*$keys*/ ctx[2]["7"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div7, "show", /*$keys*/ ctx[2]["7"]);
+    				toggle_class(div7, "show", /*$keys*/ ctx[2]["7"].color);
     			}
 
-    			if ((!current || dirty & /*$keys*/ 4) && t16_value !== (t16_value = /*$keys*/ ctx[2]["8"].show + "")) set_data_dev(t16, t16_value);
+    			if ((!current || dirty & /*$keys*/ 4) && t16_value !== (t16_value = (/*$keys*/ ctx[2]["8"].show || "") + "")) set_data_dev(t16, t16_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div8, "background-color", /*$keys*/ ctx[2]["8"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div8, "show", /*$keys*/ ctx[2]["8"]);
+    				toggle_class(div8, "show", /*$keys*/ ctx[2]["8"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t18_value !== (t18_value = (/*$keys*/ ctx[2]["9"].show || "") + "")) set_data_dev(t18, t18_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div9, "background-color", /*$keys*/ ctx[2]["9"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div9, "show", /*$keys*/ ctx[2]["9"]);
+    				toggle_class(div9, "show", /*$keys*/ ctx[2]["9"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t20_value !== (t20_value = (/*$keys*/ ctx[2]["0"].show || "") + "")) set_data_dev(t20, t20_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div10, "background-color", /*$keys*/ ctx[2]["0"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div10, "show", /*$keys*/ ctx[2]["0"]);
+    				toggle_class(div10, "show", /*$keys*/ ctx[2]["0"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t22_value !== (t22_value = (/*$keys*/ ctx[2]["-"].show || "") + "")) set_data_dev(t22, t22_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div11, "background-color", /*$keys*/ ctx[2]["-"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div11, "show", /*$keys*/ ctx[2]["-"]);
+    				toggle_class(div11, "show", /*$keys*/ ctx[2]["-"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t24_value !== (t24_value = (/*$keys*/ ctx[2]["="].show || "") + "")) set_data_dev(t24, t24_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div12, "background-color", /*$keys*/ ctx[2]["="].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div12, "show", /*$keys*/ ctx[2]["="]);
+    				toggle_class(div12, "show", /*$keys*/ ctx[2]["="].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t26_value !== (t26_value = (/*$keys*/ ctx[2]["del"].show || "") + "")) set_data_dev(t26, t26_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div13, "background-color", /*$keys*/ ctx[2]["del"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div13, "show", /*$keys*/ ctx[2]["del"]);
+    				toggle_class(div13, "show", /*$keys*/ ctx[2]["del"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t28_value !== (t28_value = (/*$keys*/ ctx[2]["tab"].show || "") + "")) set_data_dev(t28, t28_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div15, "background-color", /*$keys*/ ctx[2]["tab"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div15, "show", /*$keys*/ ctx[2]["tab"]);
+    				toggle_class(div15, "show", /*$keys*/ ctx[2]["tab"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t30_value !== (t30_value = (/*$keys*/ ctx[2]["q"].show || "") + "")) set_data_dev(t30, t30_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div16, "background-color", /*$keys*/ ctx[2]["q"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div16, "show", /*$keys*/ ctx[2]["q"]);
+    				toggle_class(div16, "show", /*$keys*/ ctx[2]["q"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t32_value !== (t32_value = (/*$keys*/ ctx[2]["w"].show || "") + "")) set_data_dev(t32, t32_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div17, "background-color", /*$keys*/ ctx[2]["w"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div17, "show", /*$keys*/ ctx[2]["w"]);
+    				toggle_class(div17, "show", /*$keys*/ ctx[2]["w"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t34_value !== (t34_value = (/*$keys*/ ctx[2]["e"].show || "") + "")) set_data_dev(t34, t34_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div18, "background-color", /*$keys*/ ctx[2]["e"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div18, "show", /*$keys*/ ctx[2]["e"]);
+    				toggle_class(div18, "show", /*$keys*/ ctx[2]["e"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t36_value !== (t36_value = (/*$keys*/ ctx[2]["r"].show || "") + "")) set_data_dev(t36, t36_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div19, "background-color", /*$keys*/ ctx[2]["r"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div19, "show", /*$keys*/ ctx[2]["r"]);
+    				toggle_class(div19, "show", /*$keys*/ ctx[2]["r"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t38_value !== (t38_value = (/*$keys*/ ctx[2]["t"].show || "") + "")) set_data_dev(t38, t38_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div20, "background-color", /*$keys*/ ctx[2]["t"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div20, "show", /*$keys*/ ctx[2]["t"]);
+    				toggle_class(div20, "show", /*$keys*/ ctx[2]["t"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t40_value !== (t40_value = (/*$keys*/ ctx[2]["y"].show || "") + "")) set_data_dev(t40, t40_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div21, "background-color", /*$keys*/ ctx[2]["y"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div21, "show", /*$keys*/ ctx[2]["y"]);
+    				toggle_class(div21, "show", /*$keys*/ ctx[2]["y"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t42_value !== (t42_value = (/*$keys*/ ctx[2]["u"].show || "") + "")) set_data_dev(t42, t42_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div22, "background-color", /*$keys*/ ctx[2]["u"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div22, "show", /*$keys*/ ctx[2]["u"]);
+    				toggle_class(div22, "show", /*$keys*/ ctx[2]["u"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t44_value !== (t44_value = (/*$keys*/ ctx[2]["i"].show || "") + "")) set_data_dev(t44, t44_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div23, "background-color", /*$keys*/ ctx[2]["i"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div23, "show", /*$keys*/ ctx[2]["i"]);
+    				toggle_class(div23, "show", /*$keys*/ ctx[2]["i"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t46_value !== (t46_value = (/*$keys*/ ctx[2]["o"].show || "") + "")) set_data_dev(t46, t46_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div24, "background-color", /*$keys*/ ctx[2]["o"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div24, "show", /*$keys*/ ctx[2]["o"]);
+    				toggle_class(div24, "show", /*$keys*/ ctx[2]["o"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t48_value !== (t48_value = (/*$keys*/ ctx[2]["p"].show || "") + "")) set_data_dev(t48, t48_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div25, "background-color", /*$keys*/ ctx[2]["p"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div25, "show", /*$keys*/ ctx[2]["p"]);
+    				toggle_class(div25, "show", /*$keys*/ ctx[2]["p"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t50_value !== (t50_value = (/*$keys*/ ctx[2]["["].show || "") + "")) set_data_dev(t50, t50_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div26, "background-color", /*$keys*/ ctx[2]["["].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div26, "show", /*$keys*/ ctx[2]["["]);
+    				toggle_class(div26, "show", /*$keys*/ ctx[2]["["].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t52_value !== (t52_value = (/*$keys*/ ctx[2]["]"].show || "") + "")) set_data_dev(t52, t52_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div27, "background-color", /*$keys*/ ctx[2]["]"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div27, "show", /*$keys*/ ctx[2]["]"]);
+    				toggle_class(div27, "show", /*$keys*/ ctx[2]["]"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t54_value !== (t54_value = (/*$keys*/ ctx[2]["\\"].show || "") + "")) set_data_dev(t54, t54_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div28, "background-color", /*$keys*/ ctx[2]["\\"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div28, "show", /*$keys*/ ctx[2]["'"]);
+    				toggle_class(div28, "show", /*$keys*/ ctx[2]["\\"].color);
+    			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t56_value !== (t56_value = (/*$keys*/ ctx[2]["caps"].show || "") + "")) set_data_dev(t56, t56_value);
+
+    			if (!current || dirty & /*$keys*/ 4) {
+    				set_style(div30, "background-color", /*$keys*/ ctx[2]["caps"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div30, "show", /*$keys*/ ctx[2]["caps"]);
+    				toggle_class(div30, "show", /*$keys*/ ctx[2]["caps"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t58_value !== (t58_value = (/*$keys*/ ctx[2]["a"].show || "") + "")) set_data_dev(t58, t58_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div31, "background-color", /*$keys*/ ctx[2]["a"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div31, "show", /*$keys*/ ctx[2]["a"]);
+    				toggle_class(div31, "show", /*$keys*/ ctx[2]["a"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t60_value !== (t60_value = (/*$keys*/ ctx[2]["s"].show || "") + "")) set_data_dev(t60, t60_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div32, "background-color", /*$keys*/ ctx[2]["s"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div32, "show", /*$keys*/ ctx[2]["s"]);
+    				toggle_class(div32, "show", /*$keys*/ ctx[2]["s"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t62_value !== (t62_value = (/*$keys*/ ctx[2]["d"].show || "") + "")) set_data_dev(t62, t62_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div33, "background-color", /*$keys*/ ctx[2]["d"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div33, "show", /*$keys*/ ctx[2]["d"]);
+    				toggle_class(div33, "show", /*$keys*/ ctx[2]["d"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t64_value !== (t64_value = (/*$keys*/ ctx[2]["f"].show || "") + "")) set_data_dev(t64, t64_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div34, "background-color", /*$keys*/ ctx[2]["f"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div34, "show", /*$keys*/ ctx[2]["f"]);
+    				toggle_class(div34, "show", /*$keys*/ ctx[2]["f"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t66_value !== (t66_value = (/*$keys*/ ctx[2]["g"].show || "") + "")) set_data_dev(t66, t66_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div35, "background-color", /*$keys*/ ctx[2]["g"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div35, "show", /*$keys*/ ctx[2]["g"]);
+    				toggle_class(div35, "show", /*$keys*/ ctx[2]["g"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t68_value !== (t68_value = (/*$keys*/ ctx[2]["h"].show || "") + "")) set_data_dev(t68, t68_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div36, "background-color", /*$keys*/ ctx[2]["h"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div36, "show", /*$keys*/ ctx[2]["h"]);
+    				toggle_class(div36, "show", /*$keys*/ ctx[2]["h"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t70_value !== (t70_value = (/*$keys*/ ctx[2]["j"].show || "") + "")) set_data_dev(t70, t70_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div37, "background-color", /*$keys*/ ctx[2]["j"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div37, "show", /*$keys*/ ctx[2]["j"]);
+    				toggle_class(div37, "show", /*$keys*/ ctx[2]["j"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t72_value !== (t72_value = (/*$keys*/ ctx[2]["k"].show || "") + "")) set_data_dev(t72, t72_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div38, "background-color", /*$keys*/ ctx[2]["k"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div38, "show", /*$keys*/ ctx[2]["k"]);
+    				toggle_class(div38, "show", /*$keys*/ ctx[2]["k"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t74_value !== (t74_value = (/*$keys*/ ctx[2]["l"].show || "") + "")) set_data_dev(t74, t74_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div39, "background-color", /*$keys*/ ctx[2]["l"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div39, "show", /*$keys*/ ctx[2]["l"]);
+    				toggle_class(div39, "show", /*$keys*/ ctx[2]["l"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t76_value !== (t76_value = (/*$keys*/ ctx[2][";"].show || "") + "")) set_data_dev(t76, t76_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div40, "background-color", /*$keys*/ ctx[2][";"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div40, "show", /*$keys*/ ctx[2][";"]);
+    				toggle_class(div40, "show", /*$keys*/ ctx[2][";"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t78_value !== (t78_value = (/*$keys*/ ctx[2]["'"].show || "") + "")) set_data_dev(t78, t78_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div41, "background-color", /*$keys*/ ctx[2]["'"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div41, "show", /*$keys*/ ctx[2]["'"]);
+    				toggle_class(div41, "show", /*$keys*/ ctx[2]["'"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t80_value !== (t80_value = (/*$keys*/ ctx[2]["enter"].show || "") + "")) set_data_dev(t80, t80_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div42, "background-color", /*$keys*/ ctx[2]["enter"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div42, "show", /*$keys*/ ctx[2]["enter"]);
+    				toggle_class(div42, "show", /*$keys*/ ctx[2]["enter"].color);
+    			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t82_value !== (t82_value = (/*$keys*/ ctx[2]["lshift"].show || "") + "")) set_data_dev(t82, t82_value);
+
+    			if (!current || dirty & /*$keys*/ 4) {
+    				set_style(div44, "background-color", /*$keys*/ ctx[2]["lshift"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div44, "show", /*$keys*/ ctx[2]["lshift"]);
+    				toggle_class(div44, "show", /*$keys*/ ctx[2]["lshift"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t84_value !== (t84_value = (/*$keys*/ ctx[2]["z"].show || "") + "")) set_data_dev(t84, t84_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div45, "background-color", /*$keys*/ ctx[2]["z"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div45, "show", /*$keys*/ ctx[2]["z"]);
+    				toggle_class(div45, "show", /*$keys*/ ctx[2]["z"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t86_value !== (t86_value = (/*$keys*/ ctx[2]["x"].show || "") + "")) set_data_dev(t86, t86_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div46, "background-color", /*$keys*/ ctx[2]["x"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div46, "show", /*$keys*/ ctx[2]["x"]);
+    				toggle_class(div46, "show", /*$keys*/ ctx[2]["x"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t88_value !== (t88_value = (/*$keys*/ ctx[2]["c"].show || "") + "")) set_data_dev(t88, t88_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div47, "background-color", /*$keys*/ ctx[2]["c"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div47, "show", /*$keys*/ ctx[2]["c"]);
+    				toggle_class(div47, "show", /*$keys*/ ctx[2]["c"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t90_value !== (t90_value = (/*$keys*/ ctx[2]["v"].show || "") + "")) set_data_dev(t90, t90_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div48, "background-color", /*$keys*/ ctx[2]["v"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div48, "show", /*$keys*/ ctx[2]["v"]);
+    				toggle_class(div48, "show", /*$keys*/ ctx[2]["v"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t92_value !== (t92_value = (/*$keys*/ ctx[2]["b"].show || "") + "")) set_data_dev(t92, t92_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div49, "background-color", /*$keys*/ ctx[2]["b"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div49, "show", /*$keys*/ ctx[2]["b"]);
+    				toggle_class(div49, "show", /*$keys*/ ctx[2]["b"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t94_value !== (t94_value = (/*$keys*/ ctx[2]["n"].show || "") + "")) set_data_dev(t94, t94_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div50, "background-color", /*$keys*/ ctx[2]["n"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div50, "show", /*$keys*/ ctx[2]["n"]);
+    				toggle_class(div50, "show", /*$keys*/ ctx[2]["n"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t96_value !== (t96_value = (/*$keys*/ ctx[2]["m"].show || "") + "")) set_data_dev(t96, t96_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div51, "background-color", /*$keys*/ ctx[2]["m"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div51, "show", /*$keys*/ ctx[2]["m"]);
+    				toggle_class(div51, "show", /*$keys*/ ctx[2]["m"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t98_value !== (t98_value = (/*$keys*/ ctx[2][","].show || "") + "")) set_data_dev(t98, t98_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div52, "background-color", /*$keys*/ ctx[2][","].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div52, "show", /*$keys*/ ctx[2][","]);
+    				toggle_class(div52, "show", /*$keys*/ ctx[2][","].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t100_value !== (t100_value = (/*$keys*/ ctx[2]["."].show || "") + "")) set_data_dev(t100, t100_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div53, "background-color", /*$keys*/ ctx[2]["."].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div53, "show", /*$keys*/ ctx[2]["."]);
+    				toggle_class(div53, "show", /*$keys*/ ctx[2]["."].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t102_value !== (t102_value = (/*$keys*/ ctx[2]["/"].show || "") + "")) set_data_dev(t102, t102_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div54, "background-color", /*$keys*/ ctx[2]["/"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div54, "show", /*$keys*/ ctx[2]["/"]);
+    				toggle_class(div54, "show", /*$keys*/ ctx[2]["/"].color);
+    			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t104_value !== (t104_value = (/*$keys*/ ctx[2]["rshift"].show || "") + "")) set_data_dev(t104, t104_value);
+
+    			if (!current || dirty & /*$keys*/ 4) {
+    				set_style(div55, "background-color", /*$keys*/ ctx[2]["rshift"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div55, "show", /*$keys*/ ctx[2]["rshift"]);
+    				toggle_class(div55, "show", /*$keys*/ ctx[2]["rshift"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t106_value !== (t106_value = (/*$keys*/ ctx[2]["lctrl"].show || "") + "")) set_data_dev(t106, t106_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div57, "background-color", /*$keys*/ ctx[2]["lctrl"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div57, "show", /*$keys*/ ctx[2]["lctrl"]);
+    				toggle_class(div57, "show", /*$keys*/ ctx[2]["lctrl"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t108_value !== (t108_value = (/*$keys*/ ctx[2]["lopt"].show || "") + "")) set_data_dev(t108, t108_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div58, "background-color", /*$keys*/ ctx[2]["lopt"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div58, "show", /*$keys*/ ctx[2]["lopt"]);
+    				toggle_class(div58, "show", /*$keys*/ ctx[2]["lopt"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t110_value !== (t110_value = (/*$keys*/ ctx[2]["lcmd"].show || "") + "")) set_data_dev(t110, t110_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div59, "background-color", /*$keys*/ ctx[2]["lcmd"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div59, "show", /*$keys*/ ctx[2]["lcmd"]);
+    				toggle_class(div59, "show", /*$keys*/ ctx[2]["lcmd"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t112_value !== (t112_value = (/*$keys*/ ctx[2]["space"].show || "") + "")) set_data_dev(t112, t112_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div60, "background-color", /*$keys*/ ctx[2]["space"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div60, "show", /*$keys*/ ctx[2]["space"]);
+    				toggle_class(div60, "show", /*$keys*/ ctx[2]["space"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t114_value !== (t114_value = (/*$keys*/ ctx[2]["rcmd"].show || "") + "")) set_data_dev(t114, t114_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div61, "background-color", /*$keys*/ ctx[2]["rcmd"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div61, "show", /*$keys*/ ctx[2]["rcmd"]);
+    				toggle_class(div61, "show", /*$keys*/ ctx[2]["rcmd"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t116_value !== (t116_value = (/*$keys*/ ctx[2]["ropt"].show || "") + "")) set_data_dev(t116, t116_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div62, "background-color", /*$keys*/ ctx[2]["ropt"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div62, "show", /*$keys*/ ctx[2]["ropt"]);
+    				toggle_class(div62, "show", /*$keys*/ ctx[2]["ropt"].color);
     			}
+
+    			if ((!current || dirty & /*$keys*/ 4) && t118_value !== (t118_value = (/*$keys*/ ctx[2]["rctrl"].show || "") + "")) set_data_dev(t118, t118_value);
 
     			if (!current || dirty & /*$keys*/ 4) {
     				set_style(div63, "background-color", /*$keys*/ ctx[2]["rctrl"].color);
     			}
 
     			if (dirty & /*$keys*/ 4) {
-    				toggle_class(div63, "show", /*$keys*/ ctx[2]["rctrl"]);
+    				toggle_class(div63, "show", /*$keys*/ ctx[2]["rctrl"].color);
     			}
 
     			if (!current || dirty & /*height*/ 2) {
@@ -1914,7 +2119,7 @@ var app = (function () {
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div65);
     			div65_resize_listener();
-    			if (detaching) detach_dev(t116);
+    			if (detaching) detach_dev(t119);
     			if (default_slot) default_slot.d(detaching);
     		}
     	};
@@ -1983,7 +2188,7 @@ var app = (function () {
     class Keyboard extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		if (!document.getElementById("svelte-1xqyb7b-style")) add_css();
+    		if (!document.getElementById("svelte-s6zq7o-style")) add_css();
     		init(this, options, instance, create_fragment, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
@@ -2145,41 +2350,221 @@ var app = (function () {
 
     function add_css$1() {
     	var style = element("style");
-    	style.id = "svelte-qtnmbi-style";
-    	style.textContent = ".main.svelte-qtnmbi{margin:4rem;display:flex;flex-direction:column;justify-content:space-around;align-items:center;text-align:center;flex-wrap:wrap;align-self:stretch}.link.svelte-qtnmbi{color:steelblue;text-decoration:none;margin:3rem}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVtby5zdmVsdGUiLCJzb3VyY2VzIjpbIkRlbW8uc3ZlbHRlIl0sInNvdXJjZXNDb250ZW50IjpbIjxzY3JpcHQ+XG4gIGltcG9ydCB7IEtleWJvYXJkLCBLZXkgfSBmcm9tICcuL3NyYydcbjwvc2NyaXB0PlxuXG48c3R5bGU+XG4gIC5tYWluIHtcbiAgICBtYXJnaW46IDRyZW07XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGZsZXgtd3JhcDogd3JhcDtcbiAgICBhbGlnbi1zZWxmOiBzdHJldGNoO1xuICB9XG4gIC5saW5rIHtcbiAgICBjb2xvcjogc3RlZWxibHVlO1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICBtYXJnaW46IDNyZW07XG4gIH1cbjwvc3R5bGU+XG5cbjxkaXYgY2xhc3M9XCJtYWluXCI+XG4gIDxkaXYgY2xhc3M9XCJmMlwiPlxuICAgIDxhIGNsYXNzPVwibGlua1wiIGhyZWY9XCJodHRwczovL2dpdGh1Yi5jb20vc3BlbmNlcm1vdW50YWluL3NvbWVob3cta2V5Ym9hcmQvXCI+c29tZWhvdy1rZXlib2FyZDwvYT5cbiAgPC9kaXY+XG4gIDxLZXlib2FyZD5cbiAgICA8S2V5IGtleT1cIjhcIiBmaWxsPVwicmVkXCIgc2hvdz1cIipcIiAvPlxuICA8L0tleWJvYXJkPlxuPC9kaXY+XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS0UsS0FBSyxjQUFDLENBQUMsQUFDTCxNQUFNLENBQUUsSUFBSSxDQUNaLE9BQU8sQ0FBRSxJQUFJLENBQ2IsY0FBYyxDQUFFLE1BQU0sQ0FDdEIsZUFBZSxDQUFFLFlBQVksQ0FDN0IsV0FBVyxDQUFFLE1BQU0sQ0FDbkIsVUFBVSxDQUFFLE1BQU0sQ0FDbEIsU0FBUyxDQUFFLElBQUksQ0FDZixVQUFVLENBQUUsT0FBTyxBQUNyQixDQUFDLEFBQ0QsS0FBSyxjQUFDLENBQUMsQUFDTCxLQUFLLENBQUUsU0FBUyxDQUNoQixlQUFlLENBQUUsSUFBSSxDQUNyQixNQUFNLENBQUUsSUFBSSxBQUNkLENBQUMifQ== */";
+    	style.id = "svelte-1bqb2c4-style";
+    	style.textContent = ".main.svelte-1bqb2c4{margin:4rem;display:flex;flex-direction:column;justify-content:space-around;align-items:center;text-align:center;flex-wrap:wrap;align-self:stretch}.link.svelte-1bqb2c4{color:steelblue;text-decoration:none;margin:3rem}.m3.svelte-1bqb2c4{margin:3rem}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVtby5zdmVsdGUiLCJzb3VyY2VzIjpbIkRlbW8uc3ZlbHRlIl0sInNvdXJjZXNDb250ZW50IjpbIjxzY3JpcHQ+XG4gIGltcG9ydCB7IEtleWJvYXJkLCBLZXkgfSBmcm9tICcuL3NyYydcbjwvc2NyaXB0PlxuXG48c3R5bGU+XG4gIC5tYWluIHtcbiAgICBtYXJnaW46IDRyZW07XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGZsZXgtd3JhcDogd3JhcDtcbiAgICBhbGlnbi1zZWxmOiBzdHJldGNoO1xuICB9XG4gIC5saW5rIHtcbiAgICBjb2xvcjogc3RlZWxibHVlO1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICBtYXJnaW46IDNyZW07XG4gIH1cbiAgLm0zIHtcbiAgICBtYXJnaW46IDNyZW07XG4gIH1cbjwvc3R5bGU+XG5cbjxkaXYgY2xhc3M9XCJtYWluXCI+XG4gIDxkaXYgY2xhc3M9XCJmMiBtM1wiPlxuICAgIDxhIGNsYXNzPVwibGlua1wiIGhyZWY9XCJodHRwczovL2dpdGh1Yi5jb20vc3BlbmNlcm1vdW50YWluL3NvbWVob3cta2V5Ym9hcmQvXCI+c29tZWhvdy1rZXlib2FyZDwvYT5cbiAgPC9kaXY+XG4gIDxLZXlib2FyZD5cbiAgICA8S2V5IGtleT1cInJzaGlmdFwiIGZpbGw9XCJyZWRcIiBzaG93PVwiXCIgLz5cbiAgICA8S2V5IGtleT1cImxzaGlmdFwiIGZpbGw9XCJyZWRcIiBzaG93PVwiXCIgLz5cbiAgICA8S2V5IGtleT1cInJjdHJsXCIgZmlsbD1cInJlZFwiIHNob3c9XCJcIiAvPlxuICAgIDxLZXkga2V5PVwicm9wdFwiIGZpbGw9XCJyZWRcIiBzaG93PVwiXCIgLz5cbiAgICA8S2V5IGtleT1cInJjbWRcIiBmaWxsPVwicmVkXCIgc2hvdz1cIlwiIC8+XG4gICAgPEtleSBrZXk9XCJsY3RybFwiIGZpbGw9XCJyZWRcIiBzaG93PVwiXCIgLz5cbiAgICA8S2V5IGtleT1cImxvcHRcIiBmaWxsPVwicmVkXCIgc2hvdz1cIlwiIC8+XG4gICAgPEtleSBrZXk9XCJsY21kXCIgZmlsbD1cInJlZFwiIHNob3c9XCJcIiAvPlxuICAgIDxLZXkga2V5PVwiY2Fwc1wiIGZpbGw9XCJyZWRcIiBzaG93PVwiXCIgLz5cbiAgICA8S2V5IGtleT1cInNwYWNlXCIgZmlsbD1cIiM5NGI0ZDRcIiBzaG93PVwiXCIgLz5cbiAgICA8S2V5IGtleT1cImVudGVyXCIgZmlsbD1cIiM5NGI0ZDRcIiBzaG93PVwiXCIgLz5cbiAgICA8S2V5IGtleT1cInRhYlwiIGZpbGw9XCIjOTRiNGQ0XCIgc2hvdz1cIlwiIC8+XG4gICAgPEtleSBrZXk9XCJkZWxcIiBmaWxsPVwiIzk0YjRkNFwiIHNob3c9XCJcIiAvPlxuICA8L0tleWJvYXJkPlxuPC9kaXY+XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS0UsS0FBSyxlQUFDLENBQUMsQUFDTCxNQUFNLENBQUUsSUFBSSxDQUNaLE9BQU8sQ0FBRSxJQUFJLENBQ2IsY0FBYyxDQUFFLE1BQU0sQ0FDdEIsZUFBZSxDQUFFLFlBQVksQ0FDN0IsV0FBVyxDQUFFLE1BQU0sQ0FDbkIsVUFBVSxDQUFFLE1BQU0sQ0FDbEIsU0FBUyxDQUFFLElBQUksQ0FDZixVQUFVLENBQUUsT0FBTyxBQUNyQixDQUFDLEFBQ0QsS0FBSyxlQUFDLENBQUMsQUFDTCxLQUFLLENBQUUsU0FBUyxDQUNoQixlQUFlLENBQUUsSUFBSSxDQUNyQixNQUFNLENBQUUsSUFBSSxBQUNkLENBQUMsQUFDRCxHQUFHLGVBQUMsQ0FBQyxBQUNILE1BQU0sQ0FBRSxJQUFJLEFBQ2QsQ0FBQyJ9 */";
     	append_dev(document.head, style);
     }
 
-    // (27:2) <Keyboard>
+    // (30:2) <Keyboard>
     function create_default_slot(ctx) {
-    	let key;
+    	let key0;
+    	let t0;
+    	let key1;
+    	let t1;
+    	let key2;
+    	let t2;
+    	let key3;
+    	let t3;
+    	let key4;
+    	let t4;
+    	let key5;
+    	let t5;
+    	let key6;
+    	let t6;
+    	let key7;
+    	let t7;
+    	let key8;
+    	let t8;
+    	let key9;
+    	let t9;
+    	let key10;
+    	let t10;
+    	let key11;
+    	let t11;
+    	let key12;
     	let current;
 
-    	key = new Key({
-    			props: { key: "8", fill: "red", show: "*" },
+    	key0 = new Key({
+    			props: { key: "rshift", fill: "red", show: "" },
+    			$$inline: true
+    		});
+
+    	key1 = new Key({
+    			props: { key: "lshift", fill: "red", show: "" },
+    			$$inline: true
+    		});
+
+    	key2 = new Key({
+    			props: { key: "rctrl", fill: "red", show: "" },
+    			$$inline: true
+    		});
+
+    	key3 = new Key({
+    			props: { key: "ropt", fill: "red", show: "" },
+    			$$inline: true
+    		});
+
+    	key4 = new Key({
+    			props: { key: "rcmd", fill: "red", show: "" },
+    			$$inline: true
+    		});
+
+    	key5 = new Key({
+    			props: { key: "lctrl", fill: "red", show: "" },
+    			$$inline: true
+    		});
+
+    	key6 = new Key({
+    			props: { key: "lopt", fill: "red", show: "" },
+    			$$inline: true
+    		});
+
+    	key7 = new Key({
+    			props: { key: "lcmd", fill: "red", show: "" },
+    			$$inline: true
+    		});
+
+    	key8 = new Key({
+    			props: { key: "caps", fill: "red", show: "" },
+    			$$inline: true
+    		});
+
+    	key9 = new Key({
+    			props: { key: "space", fill: "#94b4d4", show: "" },
+    			$$inline: true
+    		});
+
+    	key10 = new Key({
+    			props: { key: "enter", fill: "#94b4d4", show: "" },
+    			$$inline: true
+    		});
+
+    	key11 = new Key({
+    			props: { key: "tab", fill: "#94b4d4", show: "" },
+    			$$inline: true
+    		});
+
+    	key12 = new Key({
+    			props: { key: "del", fill: "#94b4d4", show: "" },
     			$$inline: true
     		});
 
     	const block = {
     		c: function create() {
-    			create_component(key.$$.fragment);
+    			create_component(key0.$$.fragment);
+    			t0 = space();
+    			create_component(key1.$$.fragment);
+    			t1 = space();
+    			create_component(key2.$$.fragment);
+    			t2 = space();
+    			create_component(key3.$$.fragment);
+    			t3 = space();
+    			create_component(key4.$$.fragment);
+    			t4 = space();
+    			create_component(key5.$$.fragment);
+    			t5 = space();
+    			create_component(key6.$$.fragment);
+    			t6 = space();
+    			create_component(key7.$$.fragment);
+    			t7 = space();
+    			create_component(key8.$$.fragment);
+    			t8 = space();
+    			create_component(key9.$$.fragment);
+    			t9 = space();
+    			create_component(key10.$$.fragment);
+    			t10 = space();
+    			create_component(key11.$$.fragment);
+    			t11 = space();
+    			create_component(key12.$$.fragment);
     		},
     		m: function mount(target, anchor) {
-    			mount_component(key, target, anchor);
+    			mount_component(key0, target, anchor);
+    			insert_dev(target, t0, anchor);
+    			mount_component(key1, target, anchor);
+    			insert_dev(target, t1, anchor);
+    			mount_component(key2, target, anchor);
+    			insert_dev(target, t2, anchor);
+    			mount_component(key3, target, anchor);
+    			insert_dev(target, t3, anchor);
+    			mount_component(key4, target, anchor);
+    			insert_dev(target, t4, anchor);
+    			mount_component(key5, target, anchor);
+    			insert_dev(target, t5, anchor);
+    			mount_component(key6, target, anchor);
+    			insert_dev(target, t6, anchor);
+    			mount_component(key7, target, anchor);
+    			insert_dev(target, t7, anchor);
+    			mount_component(key8, target, anchor);
+    			insert_dev(target, t8, anchor);
+    			mount_component(key9, target, anchor);
+    			insert_dev(target, t9, anchor);
+    			mount_component(key10, target, anchor);
+    			insert_dev(target, t10, anchor);
+    			mount_component(key11, target, anchor);
+    			insert_dev(target, t11, anchor);
+    			mount_component(key12, target, anchor);
     			current = true;
     		},
     		p: noop,
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(key.$$.fragment, local);
+    			transition_in(key0.$$.fragment, local);
+    			transition_in(key1.$$.fragment, local);
+    			transition_in(key2.$$.fragment, local);
+    			transition_in(key3.$$.fragment, local);
+    			transition_in(key4.$$.fragment, local);
+    			transition_in(key5.$$.fragment, local);
+    			transition_in(key6.$$.fragment, local);
+    			transition_in(key7.$$.fragment, local);
+    			transition_in(key8.$$.fragment, local);
+    			transition_in(key9.$$.fragment, local);
+    			transition_in(key10.$$.fragment, local);
+    			transition_in(key11.$$.fragment, local);
+    			transition_in(key12.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(key.$$.fragment, local);
+    			transition_out(key0.$$.fragment, local);
+    			transition_out(key1.$$.fragment, local);
+    			transition_out(key2.$$.fragment, local);
+    			transition_out(key3.$$.fragment, local);
+    			transition_out(key4.$$.fragment, local);
+    			transition_out(key5.$$.fragment, local);
+    			transition_out(key6.$$.fragment, local);
+    			transition_out(key7.$$.fragment, local);
+    			transition_out(key8.$$.fragment, local);
+    			transition_out(key9.$$.fragment, local);
+    			transition_out(key10.$$.fragment, local);
+    			transition_out(key11.$$.fragment, local);
+    			transition_out(key12.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			destroy_component(key, detaching);
+    			destroy_component(key0, detaching);
+    			if (detaching) detach_dev(t0);
+    			destroy_component(key1, detaching);
+    			if (detaching) detach_dev(t1);
+    			destroy_component(key2, detaching);
+    			if (detaching) detach_dev(t2);
+    			destroy_component(key3, detaching);
+    			if (detaching) detach_dev(t3);
+    			destroy_component(key4, detaching);
+    			if (detaching) detach_dev(t4);
+    			destroy_component(key5, detaching);
+    			if (detaching) detach_dev(t5);
+    			destroy_component(key6, detaching);
+    			if (detaching) detach_dev(t6);
+    			destroy_component(key7, detaching);
+    			if (detaching) detach_dev(t7);
+    			destroy_component(key8, detaching);
+    			if (detaching) detach_dev(t8);
+    			destroy_component(key9, detaching);
+    			if (detaching) detach_dev(t9);
+    			destroy_component(key10, detaching);
+    			if (detaching) detach_dev(t10);
+    			destroy_component(key11, detaching);
+    			if (detaching) detach_dev(t11);
+    			destroy_component(key12, detaching);
     		}
     	};
 
@@ -2187,7 +2572,7 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(27:2) <Keyboard>",
+    		source: "(30:2) <Keyboard>",
     		ctx
     	});
 
@@ -2218,13 +2603,13 @@ var app = (function () {
     			a.textContent = "somehow-keyboard";
     			t1 = space();
     			create_component(keyboard.$$.fragment);
-    			attr_dev(a, "class", "link svelte-qtnmbi");
+    			attr_dev(a, "class", "link svelte-1bqb2c4");
     			attr_dev(a, "href", "https://github.com/spencermountain/somehow-keyboard/");
-    			add_location(a, file$1, 24, 4, 410);
-    			attr_dev(div0, "class", "f2");
-    			add_location(div0, file$1, 23, 2, 389);
-    			attr_dev(div1, "class", "main svelte-qtnmbi");
-    			add_location(div1, file$1, 22, 0, 368);
+    			add_location(a, file$1, 27, 4, 443);
+    			attr_dev(div0, "class", "f2 m3 svelte-1bqb2c4");
+    			add_location(div0, file$1, 26, 2, 419);
+    			attr_dev(div1, "class", "main svelte-1bqb2c4");
+    			add_location(div1, file$1, 25, 0, 398);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2288,7 +2673,7 @@ var app = (function () {
     class Demo extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		if (!document.getElementById("svelte-qtnmbi-style")) add_css$1();
+    		if (!document.getElementById("svelte-1bqb2c4-style")) add_css$1();
     		init(this, options, instance$2, create_fragment$2, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
