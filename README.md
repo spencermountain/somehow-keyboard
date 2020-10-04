@@ -17,10 +17,9 @@
 </div>
 <img height="25px" src="https://user-images.githubusercontent.com/399657/68221862-17ceb980-ffb8-11e9-87d4-7b30b6488f16.png"/>
 
-
 ```html
 <script>
-  import { Keyboard, Key } from './src'
+  import { Keyboard Key } from './src'
 </script>
 
 <Keyboard>
@@ -34,5 +33,82 @@
 
 - Keyboard
 - Key
+
+### Key names
+
+```md
+# top row
+
+'`'
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+'-'
+'='
+'del'
+
+# 2nd row
+
+'tab'
+'q'
+'w'
+'e'
+'r'
+'t'
+'y'
+'u'
+'i'
+'o'
+'p'
+'['
+']'
+'\\'
+
+# 3rd row
+
+'caps'
+'a'
+'s'
+'d'
+'f'
+'g'
+'h'
+'j'
+'k'
+'l'
+';'
+'\''
+'enter'
+
+# 4th row
+
+'lshift'
+'z'
+'x'
+'c'
+'v'
+'b'
+'n'
+'m'
+''
+'.'
+'/'
+'rshift'
+// bottom row
+'lctrl'
+'lopt'
+'lcmd'
+'space'
+'rcmd'
+'ropt'
+'rctrl'
+```
 
 MIT
