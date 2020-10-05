@@ -27,7 +27,7 @@
 </Keyboard>
 ```
 
-![image](https://user-images.githubusercontent.com/399657/92405774-56676000-f104-11ea-8c05-0209b6e09432.png)
+![image](https://user-images.githubusercontent.com/399657/95099270-aafafc80-06fd-11eb-82da-e9c05a74d292.png)
 
 ### API
 

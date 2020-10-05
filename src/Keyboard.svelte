@@ -57,7 +57,7 @@
 
 <div class="container" bind:clientWidth={w} style="max-height:{height}px;">
   <div class="row">
-    <div class="key" style="background-color:{$keys['`'].color};flex:0.7;" class:show={$keys['`'].color}>
+    <div class="key" style="background-color:{$keys['`'].color};flex:0.9;" class:show={$keys['`'].color}>
       {$keys['`'].show || ''}
     </div>
     <div class="key" style="background-color:{$keys['1'].color};" class:show={$keys['1'].color}>
